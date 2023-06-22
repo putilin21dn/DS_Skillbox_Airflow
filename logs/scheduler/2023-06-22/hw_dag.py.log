@@ -1,0 +1,1731 @@
+[2023-06-22T15:43:04.063+0300] {processor.py:157} INFO - Started process (PID=17134) to work on /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T15:43:04.064+0300] {processor.py:826} INFO - Processing file /home/dmitry/airflow/dags/hw_dag.py for tasks to queue
+[2023-06-22T15:43:04.065+0300] {logging_mixin.py:149} INFO - [2023-06-22T15:43:04.064+0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T15:43:04.073+0300] {logging_mixin.py:149} INFO - [2023-06-22T15:43:04.071+0300] {dagbag.py:350} ERROR - Failed to import: /home/dmitry/airflow/dags/hw_dag.py
+Traceback (most recent call last):
+  File "/home/dmitry/Рабочий стол/.venv_airflow/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/dmitry/airflow/dags/hw_dag.py", line 14, in <module>
+    from modules.pipeline import pipeline
+  File "/home/dmitry/airflow_hw/modules/pipeline.py", line 6, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-06-22T15:43:04.073+0300] {processor.py:838} WARNING - No viable dags retrieved from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T15:43:04.089+0300] {processor.py:179} INFO - Processing /home/dmitry/airflow/dags/hw_dag.py took 0.029 seconds
+[2023-06-22T15:43:54.845+0300] {processor.py:157} INFO - Started process (PID=17365) to work on /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T15:43:54.846+0300] {processor.py:826} INFO - Processing file /home/dmitry/airflow/dags/hw_dag.py for tasks to queue
+[2023-06-22T15:43:54.847+0300] {logging_mixin.py:149} INFO - [2023-06-22T15:43:54.846+0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T15:43:54.851+0300] {logging_mixin.py:149} INFO - [2023-06-22T15:43:54.850+0300] {dagbag.py:350} ERROR - Failed to import: /home/dmitry/airflow/dags/hw_dag.py
+Traceback (most recent call last):
+  File "/home/dmitry/Рабочий стол/.venv_airflow/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/dmitry/airflow/dags/hw_dag.py", line 14, in <module>
+    from modules.pipeline import pipeline
+  File "/home/dmitry/airflow_hw/modules/pipeline.py", line 6, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-06-22T15:43:54.852+0300] {processor.py:838} WARNING - No viable dags retrieved from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T15:43:54.873+0300] {processor.py:179} INFO - Processing /home/dmitry/airflow/dags/hw_dag.py took 0.031 seconds
+[2023-06-22T15:44:32.183+0300] {processor.py:157} INFO - Started process (PID=17454) to work on /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T15:44:32.184+0300] {processor.py:826} INFO - Processing file /home/dmitry/airflow/dags/hw_dag.py for tasks to queue
+[2023-06-22T15:44:32.185+0300] {logging_mixin.py:149} INFO - [2023-06-22T15:44:32.185+0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T15:44:32.190+0300] {logging_mixin.py:149} INFO - [2023-06-22T15:44:32.188+0300] {dagbag.py:350} ERROR - Failed to import: /home/dmitry/airflow/dags/hw_dag.py
+Traceback (most recent call last):
+  File "/home/dmitry/Рабочий стол/.venv_airflow/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/dmitry/airflow/dags/hw_dag.py", line 14, in <module>
+    from modules.pipeline import pipeline
+  File "/home/dmitry/airflow_hw/modules/pipeline.py", line 6, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-06-22T15:44:32.190+0300] {processor.py:838} WARNING - No viable dags retrieved from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T15:44:32.213+0300] {processor.py:179} INFO - Processing /home/dmitry/airflow/dags/hw_dag.py took 0.034 seconds
+[2023-06-22T15:45:04.039+0300] {processor.py:157} INFO - Started process (PID=17529) to work on /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T15:45:04.040+0300] {processor.py:826} INFO - Processing file /home/dmitry/airflow/dags/hw_dag.py for tasks to queue
+[2023-06-22T15:45:04.041+0300] {logging_mixin.py:149} INFO - [2023-06-22T15:45:04.041+0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T15:45:04.218+0300] {logging_mixin.py:149} INFO - [2023-06-22T15:45:04.217+0300] {dagbag.py:350} ERROR - Failed to import: /home/dmitry/airflow/dags/hw_dag.py
+Traceback (most recent call last):
+  File "/home/dmitry/Рабочий стол/.venv_airflow/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/dmitry/airflow/dags/hw_dag.py", line 14, in <module>
+    from modules.pipeline import pipeline
+  File "/home/dmitry/airflow_hw/modules/pipeline.py", line 7, in <module>
+    from sklearn.compose import ColumnTransformer, make_column_selector
+ModuleNotFoundError: No module named 'sklearn'
+[2023-06-22T15:45:04.219+0300] {processor.py:838} WARNING - No viable dags retrieved from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T15:45:04.238+0300] {processor.py:179} INFO - Processing /home/dmitry/airflow/dags/hw_dag.py took 0.200 seconds
+[2023-06-22T15:45:39.220+0300] {processor.py:157} INFO - Started process (PID=17635) to work on /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T15:45:39.221+0300] {processor.py:826} INFO - Processing file /home/dmitry/airflow/dags/hw_dag.py for tasks to queue
+[2023-06-22T15:45:39.222+0300] {logging_mixin.py:149} INFO - [2023-06-22T15:45:39.222+0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T15:45:39.414+0300] {logging_mixin.py:149} INFO - [2023-06-22T15:45:39.412+0300] {dagbag.py:350} ERROR - Failed to import: /home/dmitry/airflow/dags/hw_dag.py
+Traceback (most recent call last):
+  File "/home/dmitry/Рабочий стол/.venv_airflow/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/dmitry/airflow/dags/hw_dag.py", line 14, in <module>
+    from modules.pipeline import pipeline
+  File "/home/dmitry/airflow_hw/modules/pipeline.py", line 7, in <module>
+    from sklearn.compose import ColumnTransformer, make_column_selector
+ModuleNotFoundError: No module named 'sklearn'
+[2023-06-22T15:45:39.414+0300] {processor.py:838} WARNING - No viable dags retrieved from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T15:45:39.424+0300] {processor.py:179} INFO - Processing /home/dmitry/airflow/dags/hw_dag.py took 0.207 seconds
+[2023-06-22T15:46:12.778+0300] {processor.py:157} INFO - Started process (PID=17721) to work on /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T15:46:12.780+0300] {processor.py:826} INFO - Processing file /home/dmitry/airflow/dags/hw_dag.py for tasks to queue
+[2023-06-22T15:46:12.780+0300] {logging_mixin.py:149} INFO - [2023-06-22T15:46:12.780+0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T15:46:12.972+0300] {logging_mixin.py:149} INFO - [2023-06-22T15:46:12.971+0300] {dagbag.py:350} ERROR - Failed to import: /home/dmitry/airflow/dags/hw_dag.py
+Traceback (most recent call last):
+  File "/home/dmitry/Рабочий стол/.venv_airflow/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/dmitry/airflow/dags/hw_dag.py", line 14, in <module>
+    from modules.pipeline import pipeline
+  File "/home/dmitry/airflow_hw/modules/pipeline.py", line 7, in <module>
+    from sklearn.compose import ColumnTransformer, make_column_selector
+ModuleNotFoundError: No module named 'sklearn'
+[2023-06-22T15:46:12.973+0300] {processor.py:838} WARNING - No viable dags retrieved from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T15:46:12.983+0300] {processor.py:179} INFO - Processing /home/dmitry/airflow/dags/hw_dag.py took 0.209 seconds
+[2023-06-22T15:46:47.590+0300] {processor.py:157} INFO - Started process (PID=17824) to work on /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T15:46:47.590+0300] {processor.py:826} INFO - Processing file /home/dmitry/airflow/dags/hw_dag.py for tasks to queue
+[2023-06-22T15:46:47.591+0300] {logging_mixin.py:149} INFO - [2023-06-22T15:46:47.591+0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T15:46:47.765+0300] {logging_mixin.py:149} INFO - [2023-06-22T15:46:47.763+0300] {dagbag.py:350} ERROR - Failed to import: /home/dmitry/airflow/dags/hw_dag.py
+Traceback (most recent call last):
+  File "/home/dmitry/Рабочий стол/.venv_airflow/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/dmitry/airflow/dags/hw_dag.py", line 14, in <module>
+    from modules.pipeline import pipeline
+  File "/home/dmitry/airflow_hw/modules/pipeline.py", line 7, in <module>
+    from sklearn.compose import ColumnTransformer, make_column_selector
+ModuleNotFoundError: No module named 'sklearn'
+[2023-06-22T15:46:47.765+0300] {processor.py:838} WARNING - No viable dags retrieved from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T15:46:47.775+0300] {processor.py:179} INFO - Processing /home/dmitry/airflow/dags/hw_dag.py took 0.187 seconds
+[2023-06-22T15:47:18.140+0300] {processor.py:157} INFO - Started process (PID=17895) to work on /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T15:47:18.141+0300] {processor.py:826} INFO - Processing file /home/dmitry/airflow/dags/hw_dag.py for tasks to queue
+[2023-06-22T15:47:18.142+0300] {logging_mixin.py:149} INFO - [2023-06-22T15:47:18.141+0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T15:47:18.317+0300] {logging_mixin.py:149} INFO - [2023-06-22T15:47:18.316+0300] {dagbag.py:350} ERROR - Failed to import: /home/dmitry/airflow/dags/hw_dag.py
+Traceback (most recent call last):
+  File "/home/dmitry/Рабочий стол/.venv_airflow/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/dmitry/airflow/dags/hw_dag.py", line 14, in <module>
+    from modules.pipeline import pipeline
+  File "/home/dmitry/airflow_hw/modules/pipeline.py", line 7, in <module>
+    from sklearn.compose import ColumnTransformer, make_column_selector
+ModuleNotFoundError: No module named 'sklearn'
+[2023-06-22T15:47:18.318+0300] {processor.py:838} WARNING - No viable dags retrieved from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T15:47:18.328+0300] {processor.py:179} INFO - Processing /home/dmitry/airflow/dags/hw_dag.py took 0.189 seconds
+[2023-06-22T15:47:48.691+0300] {processor.py:157} INFO - Started process (PID=17972) to work on /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T15:47:48.693+0300] {processor.py:826} INFO - Processing file /home/dmitry/airflow/dags/hw_dag.py for tasks to queue
+[2023-06-22T15:47:48.694+0300] {logging_mixin.py:149} INFO - [2023-06-22T15:47:48.693+0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T15:47:48.884+0300] {logging_mixin.py:149} INFO - [2023-06-22T15:47:48.883+0300] {dagbag.py:350} ERROR - Failed to import: /home/dmitry/airflow/dags/hw_dag.py
+Traceback (most recent call last):
+  File "/home/dmitry/Рабочий стол/.venv_airflow/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/dmitry/airflow/dags/hw_dag.py", line 14, in <module>
+    from modules.pipeline import pipeline
+  File "/home/dmitry/airflow_hw/modules/pipeline.py", line 7, in <module>
+    from sklearn.compose import ColumnTransformer, make_column_selector
+ModuleNotFoundError: No module named 'sklearn'
+[2023-06-22T15:47:48.884+0300] {processor.py:838} WARNING - No viable dags retrieved from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T15:47:48.894+0300] {processor.py:179} INFO - Processing /home/dmitry/airflow/dags/hw_dag.py took 0.206 seconds
+[2023-06-22T15:48:21.662+0300] {processor.py:157} INFO - Started process (PID=18051) to work on /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T15:48:21.663+0300] {processor.py:826} INFO - Processing file /home/dmitry/airflow/dags/hw_dag.py for tasks to queue
+[2023-06-22T15:48:21.663+0300] {logging_mixin.py:149} INFO - [2023-06-22T15:48:21.663+0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T15:48:21.838+0300] {logging_mixin.py:149} INFO - [2023-06-22T15:48:21.836+0300] {dagbag.py:350} ERROR - Failed to import: /home/dmitry/airflow/dags/hw_dag.py
+Traceback (most recent call last):
+  File "/home/dmitry/Рабочий стол/.venv_airflow/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/dmitry/airflow/dags/hw_dag.py", line 14, in <module>
+    from modules.pipeline import pipeline
+  File "/home/dmitry/airflow_hw/modules/pipeline.py", line 7, in <module>
+    from sklearn.compose import ColumnTransformer, make_column_selector
+ModuleNotFoundError: No module named 'sklearn'
+[2023-06-22T15:48:21.838+0300] {processor.py:838} WARNING - No viable dags retrieved from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T15:48:21.848+0300] {processor.py:179} INFO - Processing /home/dmitry/airflow/dags/hw_dag.py took 0.188 seconds
+[2023-06-22T15:48:54.049+0300] {processor.py:157} INFO - Started process (PID=18133) to work on /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T15:48:54.049+0300] {processor.py:826} INFO - Processing file /home/dmitry/airflow/dags/hw_dag.py for tasks to queue
+[2023-06-22T15:48:54.050+0300] {logging_mixin.py:149} INFO - [2023-06-22T15:48:54.050+0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T15:48:54.227+0300] {logging_mixin.py:149} INFO - [2023-06-22T15:48:54.225+0300] {dagbag.py:350} ERROR - Failed to import: /home/dmitry/airflow/dags/hw_dag.py
+Traceback (most recent call last):
+  File "/home/dmitry/Рабочий стол/.venv_airflow/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/dmitry/airflow/dags/hw_dag.py", line 14, in <module>
+    from modules.pipeline import pipeline
+  File "/home/dmitry/airflow_hw/modules/pipeline.py", line 7, in <module>
+    from sklearn.compose import ColumnTransformer, make_column_selector
+ModuleNotFoundError: No module named 'sklearn'
+[2023-06-22T15:48:54.227+0300] {processor.py:838} WARNING - No viable dags retrieved from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T15:48:54.237+0300] {processor.py:179} INFO - Processing /home/dmitry/airflow/dags/hw_dag.py took 0.189 seconds
+[2023-06-22T15:49:26.481+0300] {processor.py:157} INFO - Started process (PID=18247) to work on /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T15:49:26.482+0300] {processor.py:826} INFO - Processing file /home/dmitry/airflow/dags/hw_dag.py for tasks to queue
+[2023-06-22T15:49:26.483+0300] {logging_mixin.py:149} INFO - [2023-06-22T15:49:26.483+0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T15:49:26.675+0300] {logging_mixin.py:149} INFO - [2023-06-22T15:49:26.673+0300] {dagbag.py:350} ERROR - Failed to import: /home/dmitry/airflow/dags/hw_dag.py
+Traceback (most recent call last):
+  File "/home/dmitry/Рабочий стол/.venv_airflow/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/dmitry/airflow/dags/hw_dag.py", line 14, in <module>
+    from modules.pipeline import pipeline
+  File "/home/dmitry/airflow_hw/modules/pipeline.py", line 7, in <module>
+    from sklearn.compose import ColumnTransformer, make_column_selector
+ModuleNotFoundError: No module named 'sklearn'
+[2023-06-22T15:49:26.675+0300] {processor.py:838} WARNING - No viable dags retrieved from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T15:49:26.686+0300] {processor.py:179} INFO - Processing /home/dmitry/airflow/dags/hw_dag.py took 0.209 seconds
+[2023-06-22T15:49:58.796+0300] {processor.py:157} INFO - Started process (PID=18486) to work on /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T15:49:58.797+0300] {processor.py:826} INFO - Processing file /home/dmitry/airflow/dags/hw_dag.py for tasks to queue
+[2023-06-22T15:49:58.798+0300] {logging_mixin.py:149} INFO - [2023-06-22T15:49:58.798+0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T15:49:58.986+0300] {logging_mixin.py:149} INFO - [2023-06-22T15:49:58.984+0300] {dagbag.py:350} ERROR - Failed to import: /home/dmitry/airflow/dags/hw_dag.py
+Traceback (most recent call last):
+  File "/home/dmitry/Рабочий стол/.venv_airflow/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/dmitry/airflow/dags/hw_dag.py", line 14, in <module>
+    from modules.pipeline import pipeline
+  File "/home/dmitry/airflow_hw/modules/pipeline.py", line 7, in <module>
+    from sklearn.compose import ColumnTransformer, make_column_selector
+ModuleNotFoundError: No module named 'sklearn'
+[2023-06-22T15:49:58.986+0300] {processor.py:838} WARNING - No viable dags retrieved from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T15:49:58.996+0300] {processor.py:179} INFO - Processing /home/dmitry/airflow/dags/hw_dag.py took 0.203 seconds
+[2023-06-22T15:50:33.594+0300] {processor.py:157} INFO - Started process (PID=18695) to work on /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T15:50:33.596+0300] {processor.py:826} INFO - Processing file /home/dmitry/airflow/dags/hw_dag.py for tasks to queue
+[2023-06-22T15:50:33.596+0300] {logging_mixin.py:149} INFO - [2023-06-22T15:50:33.596+0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T15:50:33.778+0300] {logging_mixin.py:149} INFO - [2023-06-22T15:50:33.776+0300] {dagbag.py:350} ERROR - Failed to import: /home/dmitry/airflow/dags/hw_dag.py
+Traceback (most recent call last):
+  File "/home/dmitry/Рабочий стол/.venv_airflow/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/dmitry/airflow/dags/hw_dag.py", line 14, in <module>
+    from modules.pipeline import pipeline
+  File "/home/dmitry/airflow_hw/modules/pipeline.py", line 7, in <module>
+    from sklearn.compose import ColumnTransformer, make_column_selector
+ModuleNotFoundError: No module named 'sklearn'
+[2023-06-22T15:50:33.778+0300] {processor.py:838} WARNING - No viable dags retrieved from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T15:50:33.788+0300] {processor.py:179} INFO - Processing /home/dmitry/airflow/dags/hw_dag.py took 0.196 seconds
+[2023-06-22T15:51:08.648+0300] {processor.py:157} INFO - Started process (PID=18768) to work on /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T15:51:08.649+0300] {processor.py:826} INFO - Processing file /home/dmitry/airflow/dags/hw_dag.py for tasks to queue
+[2023-06-22T15:51:08.650+0300] {logging_mixin.py:149} INFO - [2023-06-22T15:51:08.650+0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T15:51:08.854+0300] {logging_mixin.py:149} INFO - [2023-06-22T15:51:08.853+0300] {dagbag.py:350} ERROR - Failed to import: /home/dmitry/airflow/dags/hw_dag.py
+Traceback (most recent call last):
+  File "/home/dmitry/Рабочий стол/.venv_airflow/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/dmitry/airflow/dags/hw_dag.py", line 14, in <module>
+    from modules.pipeline import pipeline
+  File "/home/dmitry/airflow_hw/modules/pipeline.py", line 7, in <module>
+    from sklearn.compose import ColumnTransformer, make_column_selector
+ModuleNotFoundError: No module named 'sklearn'
+[2023-06-22T15:51:08.854+0300] {processor.py:838} WARNING - No viable dags retrieved from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T15:51:08.864+0300] {processor.py:179} INFO - Processing /home/dmitry/airflow/dags/hw_dag.py took 0.219 seconds
+[2023-06-22T15:51:41.043+0300] {processor.py:157} INFO - Started process (PID=18847) to work on /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T15:51:41.044+0300] {processor.py:826} INFO - Processing file /home/dmitry/airflow/dags/hw_dag.py for tasks to queue
+[2023-06-22T15:51:41.045+0300] {logging_mixin.py:149} INFO - [2023-06-22T15:51:41.045+0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T15:51:41.271+0300] {logging_mixin.py:149} INFO - [2023-06-22T15:51:41.269+0300] {dagbag.py:350} ERROR - Failed to import: /home/dmitry/airflow/dags/hw_dag.py
+Traceback (most recent call last):
+  File "/home/dmitry/Рабочий стол/.venv_airflow/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/dmitry/airflow/dags/hw_dag.py", line 14, in <module>
+    from modules.pipeline import pipeline
+  File "/home/dmitry/airflow_hw/modules/pipeline.py", line 7, in <module>
+    from sklearn.compose import ColumnTransformer, make_column_selector
+ModuleNotFoundError: No module named 'sklearn'
+[2023-06-22T15:51:41.271+0300] {processor.py:838} WARNING - No viable dags retrieved from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T15:51:41.280+0300] {processor.py:179} INFO - Processing /home/dmitry/airflow/dags/hw_dag.py took 0.241 seconds
+[2023-06-22T15:52:14.027+0300] {processor.py:157} INFO - Started process (PID=18934) to work on /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T15:52:14.028+0300] {processor.py:826} INFO - Processing file /home/dmitry/airflow/dags/hw_dag.py for tasks to queue
+[2023-06-22T15:52:14.029+0300] {logging_mixin.py:149} INFO - [2023-06-22T15:52:14.029+0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T15:52:14.219+0300] {logging_mixin.py:149} INFO - [2023-06-22T15:52:14.218+0300] {dagbag.py:350} ERROR - Failed to import: /home/dmitry/airflow/dags/hw_dag.py
+Traceback (most recent call last):
+  File "/home/dmitry/Рабочий стол/.venv_airflow/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/dmitry/airflow/dags/hw_dag.py", line 14, in <module>
+    from modules.pipeline import pipeline
+  File "/home/dmitry/airflow_hw/modules/pipeline.py", line 7, in <module>
+    from sklearn.compose import ColumnTransformer, make_column_selector
+ModuleNotFoundError: No module named 'sklearn'
+[2023-06-22T15:52:14.220+0300] {processor.py:838} WARNING - No viable dags retrieved from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T15:52:14.230+0300] {processor.py:179} INFO - Processing /home/dmitry/airflow/dags/hw_dag.py took 0.206 seconds
+[2023-06-22T15:52:45.529+0300] {processor.py:157} INFO - Started process (PID=19034) to work on /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T15:52:45.530+0300] {processor.py:826} INFO - Processing file /home/dmitry/airflow/dags/hw_dag.py for tasks to queue
+[2023-06-22T15:52:45.531+0300] {logging_mixin.py:149} INFO - [2023-06-22T15:52:45.531+0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T15:52:45.722+0300] {logging_mixin.py:149} INFO - [2023-06-22T15:52:45.721+0300] {dagbag.py:350} ERROR - Failed to import: /home/dmitry/airflow/dags/hw_dag.py
+Traceback (most recent call last):
+  File "/home/dmitry/Рабочий стол/.venv_airflow/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/dmitry/airflow/dags/hw_dag.py", line 14, in <module>
+    from modules.pipeline import pipeline
+  File "/home/dmitry/airflow_hw/modules/pipeline.py", line 7, in <module>
+    from sklearn.compose import ColumnTransformer, make_column_selector
+ModuleNotFoundError: No module named 'sklearn'
+[2023-06-22T15:52:45.723+0300] {processor.py:838} WARNING - No viable dags retrieved from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T15:52:45.732+0300] {processor.py:179} INFO - Processing /home/dmitry/airflow/dags/hw_dag.py took 0.207 seconds
+[2023-06-22T15:53:19.273+0300] {processor.py:157} INFO - Started process (PID=19103) to work on /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T15:53:19.273+0300] {processor.py:826} INFO - Processing file /home/dmitry/airflow/dags/hw_dag.py for tasks to queue
+[2023-06-22T15:53:19.274+0300] {logging_mixin.py:149} INFO - [2023-06-22T15:53:19.274+0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T15:53:19.446+0300] {logging_mixin.py:149} INFO - [2023-06-22T15:53:19.445+0300] {dagbag.py:350} ERROR - Failed to import: /home/dmitry/airflow/dags/hw_dag.py
+Traceback (most recent call last):
+  File "/home/dmitry/Рабочий стол/.venv_airflow/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/dmitry/airflow/dags/hw_dag.py", line 14, in <module>
+    from modules.pipeline import pipeline
+  File "/home/dmitry/airflow_hw/modules/pipeline.py", line 7, in <module>
+    from sklearn.compose import ColumnTransformer, make_column_selector
+ModuleNotFoundError: No module named 'sklearn'
+[2023-06-22T15:53:19.447+0300] {processor.py:838} WARNING - No viable dags retrieved from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T15:53:19.456+0300] {processor.py:179} INFO - Processing /home/dmitry/airflow/dags/hw_dag.py took 0.185 seconds
+[2023-06-22T15:53:52.655+0300] {processor.py:157} INFO - Started process (PID=19189) to work on /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T15:53:52.656+0300] {processor.py:826} INFO - Processing file /home/dmitry/airflow/dags/hw_dag.py for tasks to queue
+[2023-06-22T15:53:52.657+0300] {logging_mixin.py:149} INFO - [2023-06-22T15:53:52.657+0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T15:53:52.849+0300] {logging_mixin.py:149} INFO - [2023-06-22T15:53:52.848+0300] {dagbag.py:350} ERROR - Failed to import: /home/dmitry/airflow/dags/hw_dag.py
+Traceback (most recent call last):
+  File "/home/dmitry/Рабочий стол/.venv_airflow/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/dmitry/airflow/dags/hw_dag.py", line 14, in <module>
+    from modules.pipeline import pipeline
+  File "/home/dmitry/airflow_hw/modules/pipeline.py", line 7, in <module>
+    from sklearn.compose import ColumnTransformer, make_column_selector
+ModuleNotFoundError: No module named 'sklearn'
+[2023-06-22T15:53:52.849+0300] {processor.py:838} WARNING - No viable dags retrieved from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T15:53:52.859+0300] {processor.py:179} INFO - Processing /home/dmitry/airflow/dags/hw_dag.py took 0.208 seconds
+[2023-06-22T15:54:27.628+0300] {processor.py:157} INFO - Started process (PID=19281) to work on /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T15:54:27.629+0300] {processor.py:826} INFO - Processing file /home/dmitry/airflow/dags/hw_dag.py for tasks to queue
+[2023-06-22T15:54:27.630+0300] {logging_mixin.py:149} INFO - [2023-06-22T15:54:27.630+0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T15:54:27.824+0300] {logging_mixin.py:149} INFO - [2023-06-22T15:54:27.823+0300] {dagbag.py:350} ERROR - Failed to import: /home/dmitry/airflow/dags/hw_dag.py
+Traceback (most recent call last):
+  File "/home/dmitry/Рабочий стол/.venv_airflow/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/dmitry/airflow/dags/hw_dag.py", line 14, in <module>
+    from modules.pipeline import pipeline
+  File "/home/dmitry/airflow_hw/modules/pipeline.py", line 7, in <module>
+    from sklearn.compose import ColumnTransformer, make_column_selector
+ModuleNotFoundError: No module named 'sklearn'
+[2023-06-22T15:54:27.824+0300] {processor.py:838} WARNING - No viable dags retrieved from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T15:54:27.834+0300] {processor.py:179} INFO - Processing /home/dmitry/airflow/dags/hw_dag.py took 0.210 seconds
+[2023-06-22T15:55:03.449+0300] {processor.py:157} INFO - Started process (PID=19370) to work on /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T15:55:03.450+0300] {processor.py:826} INFO - Processing file /home/dmitry/airflow/dags/hw_dag.py for tasks to queue
+[2023-06-22T15:55:03.450+0300] {logging_mixin.py:149} INFO - [2023-06-22T15:55:03.450+0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T15:55:03.623+0300] {logging_mixin.py:149} INFO - [2023-06-22T15:55:03.622+0300] {dagbag.py:350} ERROR - Failed to import: /home/dmitry/airflow/dags/hw_dag.py
+Traceback (most recent call last):
+  File "/home/dmitry/Рабочий стол/.venv_airflow/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/dmitry/airflow/dags/hw_dag.py", line 14, in <module>
+    from modules.pipeline import pipeline
+  File "/home/dmitry/airflow_hw/modules/pipeline.py", line 7, in <module>
+    from sklearn.compose import ColumnTransformer, make_column_selector
+ModuleNotFoundError: No module named 'sklearn'
+[2023-06-22T15:55:03.623+0300] {processor.py:838} WARNING - No viable dags retrieved from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T15:55:03.633+0300] {processor.py:179} INFO - Processing /home/dmitry/airflow/dags/hw_dag.py took 0.185 seconds
+[2023-06-22T15:55:35.512+0300] {processor.py:157} INFO - Started process (PID=19445) to work on /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T15:55:35.513+0300] {processor.py:826} INFO - Processing file /home/dmitry/airflow/dags/hw_dag.py for tasks to queue
+[2023-06-22T15:55:35.513+0300] {logging_mixin.py:149} INFO - [2023-06-22T15:55:35.513+0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T15:55:35.685+0300] {logging_mixin.py:149} INFO - [2023-06-22T15:55:35.683+0300] {dagbag.py:350} ERROR - Failed to import: /home/dmitry/airflow/dags/hw_dag.py
+Traceback (most recent call last):
+  File "/home/dmitry/Рабочий стол/.venv_airflow/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/dmitry/airflow/dags/hw_dag.py", line 14, in <module>
+    from modules.pipeline import pipeline
+  File "/home/dmitry/airflow_hw/modules/pipeline.py", line 7, in <module>
+    from sklearn.compose import ColumnTransformer, make_column_selector
+ModuleNotFoundError: No module named 'sklearn'
+[2023-06-22T15:55:35.685+0300] {processor.py:838} WARNING - No viable dags retrieved from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T15:55:35.695+0300] {processor.py:179} INFO - Processing /home/dmitry/airflow/dags/hw_dag.py took 0.184 seconds
+[2023-06-22T15:56:10.485+0300] {processor.py:157} INFO - Started process (PID=19537) to work on /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T15:56:10.485+0300] {processor.py:826} INFO - Processing file /home/dmitry/airflow/dags/hw_dag.py for tasks to queue
+[2023-06-22T15:56:10.486+0300] {logging_mixin.py:149} INFO - [2023-06-22T15:56:10.486+0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T15:56:10.671+0300] {logging_mixin.py:149} INFO - [2023-06-22T15:56:10.669+0300] {dagbag.py:350} ERROR - Failed to import: /home/dmitry/airflow/dags/hw_dag.py
+Traceback (most recent call last):
+  File "/home/dmitry/Рабочий стол/.venv_airflow/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/dmitry/airflow/dags/hw_dag.py", line 14, in <module>
+    from modules.pipeline import pipeline
+  File "/home/dmitry/airflow_hw/modules/pipeline.py", line 7, in <module>
+    from sklearn.compose import ColumnTransformer, make_column_selector
+ModuleNotFoundError: No module named 'sklearn'
+[2023-06-22T15:56:10.671+0300] {processor.py:838} WARNING - No viable dags retrieved from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T15:56:10.682+0300] {processor.py:179} INFO - Processing /home/dmitry/airflow/dags/hw_dag.py took 0.199 seconds
+[2023-06-22T17:44:49.860+0300] {processor.py:157} INFO - Started process (PID=16263) to work on /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T17:44:49.861+0300] {processor.py:826} INFO - Processing file /home/dmitry/airflow/dags/hw_dag.py for tasks to queue
+[2023-06-22T17:44:49.862+0300] {logging_mixin.py:149} INFO - [2023-06-22T17:44:49.862+0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T17:44:50.320+0300] {logging_mixin.py:149} INFO - [2023-06-22T17:44:50.319+0300] {dagbag.py:350} ERROR - Failed to import: /home/dmitry/airflow/dags/hw_dag.py
+Traceback (most recent call last):
+  File "/home/dmitry/Рабочий стол/.venv_airflow/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/dmitry/airflow/dags/hw_dag.py", line 14, in <module>
+    from modules.pipeline import pipeline
+  File "/home/dmitry/airflow_hw/modules/pipeline.py", line 7, in <module>
+    from sklearn.compose import ColumnTransformer, make_column_selector
+ModuleNotFoundError: No module named 'sklearn'
+[2023-06-22T17:44:50.320+0300] {processor.py:838} WARNING - No viable dags retrieved from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T17:44:50.331+0300] {processor.py:179} INFO - Processing /home/dmitry/airflow/dags/hw_dag.py took 0.474 seconds
+[2023-06-22T17:45:39.086+0300] {processor.py:157} INFO - Started process (PID=16374) to work on /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T17:45:39.087+0300] {processor.py:826} INFO - Processing file /home/dmitry/airflow/dags/hw_dag.py for tasks to queue
+[2023-06-22T17:45:39.088+0300] {logging_mixin.py:149} INFO - [2023-06-22T17:45:39.087+0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T17:45:39.092+0300] {logging_mixin.py:149} INFO - [2023-06-22T17:45:39.091+0300] {dagbag.py:350} ERROR - Failed to import: /home/dmitry/airflow/dags/hw_dag.py
+Traceback (most recent call last):
+  File "/home/dmitry/Рабочий стол/.venv_airflow/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/dmitry/airflow/dags/hw_dag.py", line 7, in <module>
+    from modules.pipeline import pipeline
+ModuleNotFoundError: No module named 'modules'
+[2023-06-22T17:45:39.092+0300] {processor.py:838} WARNING - No viable dags retrieved from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T17:45:39.115+0300] {processor.py:179} INFO - Processing /home/dmitry/airflow/dags/hw_dag.py took 0.033 seconds
+[2023-06-22T17:46:16.547+0300] {processor.py:157} INFO - Started process (PID=16468) to work on /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T17:46:16.548+0300] {processor.py:826} INFO - Processing file /home/dmitry/airflow/dags/hw_dag.py for tasks to queue
+[2023-06-22T17:46:16.549+0300] {logging_mixin.py:149} INFO - [2023-06-22T17:46:16.549+0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T17:46:16.553+0300] {logging_mixin.py:149} INFO - [2023-06-22T17:46:16.551+0300] {dagbag.py:350} ERROR - Failed to import: /home/dmitry/airflow/dags/hw_dag.py
+Traceback (most recent call last):
+  File "/home/dmitry/Рабочий стол/.venv_airflow/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/dmitry/airflow/dags/hw_dag.py", line 7, in <module>
+    from modules.pipeline import pipeline
+ModuleNotFoundError: No module named 'modules'
+[2023-06-22T17:46:16.553+0300] {processor.py:838} WARNING - No viable dags retrieved from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T17:46:16.576+0300] {processor.py:179} INFO - Processing /home/dmitry/airflow/dags/hw_dag.py took 0.033 seconds
+[2023-06-22T17:46:50.846+0300] {processor.py:157} INFO - Started process (PID=16514) to work on /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T17:46:50.848+0300] {processor.py:826} INFO - Processing file /home/dmitry/airflow/dags/hw_dag.py for tasks to queue
+[2023-06-22T17:46:50.848+0300] {logging_mixin.py:149} INFO - [2023-06-22T17:46:50.848+0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T17:46:50.852+0300] {logging_mixin.py:149} INFO - [2023-06-22T17:46:50.851+0300] {dagbag.py:350} ERROR - Failed to import: /home/dmitry/airflow/dags/hw_dag.py
+Traceback (most recent call last):
+  File "/home/dmitry/Рабочий стол/.venv_airflow/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/dmitry/airflow/dags/hw_dag.py", line 7, in <module>
+    from modules.pipeline import pipeline
+ModuleNotFoundError: No module named 'modules'
+[2023-06-22T17:46:50.852+0300] {processor.py:838} WARNING - No viable dags retrieved from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T17:46:50.875+0300] {processor.py:179} INFO - Processing /home/dmitry/airflow/dags/hw_dag.py took 0.032 seconds
+[2023-06-22T17:47:23.747+0300] {processor.py:157} INFO - Started process (PID=16611) to work on /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T17:47:23.748+0300] {processor.py:826} INFO - Processing file /home/dmitry/airflow/dags/hw_dag.py for tasks to queue
+[2023-06-22T17:47:23.749+0300] {logging_mixin.py:149} INFO - [2023-06-22T17:47:23.749+0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T17:47:23.753+0300] {logging_mixin.py:149} INFO - [2023-06-22T17:47:23.751+0300] {dagbag.py:350} ERROR - Failed to import: /home/dmitry/airflow/dags/hw_dag.py
+Traceback (most recent call last):
+  File "/home/dmitry/Рабочий стол/.venv_airflow/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/dmitry/airflow/dags/hw_dag.py", line 7, in <module>
+    from modules.pipeline import pipeline
+ModuleNotFoundError: No module named 'modules'
+[2023-06-22T17:47:23.753+0300] {processor.py:838} WARNING - No viable dags retrieved from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T17:47:23.776+0300] {processor.py:179} INFO - Processing /home/dmitry/airflow/dags/hw_dag.py took 0.033 seconds
+[2023-06-22T17:47:56.244+0300] {processor.py:157} INFO - Started process (PID=16699) to work on /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T17:47:56.246+0300] {processor.py:826} INFO - Processing file /home/dmitry/airflow/dags/hw_dag.py for tasks to queue
+[2023-06-22T17:47:56.246+0300] {logging_mixin.py:149} INFO - [2023-06-22T17:47:56.246+0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T17:47:56.250+0300] {logging_mixin.py:149} INFO - [2023-06-22T17:47:56.249+0300] {dagbag.py:350} ERROR - Failed to import: /home/dmitry/airflow/dags/hw_dag.py
+Traceback (most recent call last):
+  File "/home/dmitry/Рабочий стол/.venv_airflow/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/dmitry/airflow/dags/hw_dag.py", line 7, in <module>
+    from modules.pipeline import pipeline
+ModuleNotFoundError: No module named 'modules'
+[2023-06-22T17:47:56.251+0300] {processor.py:838} WARNING - No viable dags retrieved from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T17:47:56.273+0300] {processor.py:179} INFO - Processing /home/dmitry/airflow/dags/hw_dag.py took 0.033 seconds
+[2023-06-22T17:48:30.398+0300] {processor.py:157} INFO - Started process (PID=16766) to work on /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T17:48:30.400+0300] {processor.py:826} INFO - Processing file /home/dmitry/airflow/dags/hw_dag.py for tasks to queue
+[2023-06-22T17:48:30.401+0300] {logging_mixin.py:149} INFO - [2023-06-22T17:48:30.400+0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T17:48:30.404+0300] {logging_mixin.py:149} INFO - [2023-06-22T17:48:30.403+0300] {dagbag.py:350} ERROR - Failed to import: /home/dmitry/airflow/dags/hw_dag.py
+Traceback (most recent call last):
+  File "/home/dmitry/Рабочий стол/.venv_airflow/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/dmitry/airflow/dags/hw_dag.py", line 7, in <module>
+    from modules.pipeline import pipeline
+ModuleNotFoundError: No module named 'modules'
+[2023-06-22T17:48:30.405+0300] {processor.py:838} WARNING - No viable dags retrieved from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T17:48:30.428+0300] {processor.py:179} INFO - Processing /home/dmitry/airflow/dags/hw_dag.py took 0.034 seconds
+[2023-06-22T17:49:03.342+0300] {processor.py:157} INFO - Started process (PID=16853) to work on /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T17:49:03.343+0300] {processor.py:826} INFO - Processing file /home/dmitry/airflow/dags/hw_dag.py for tasks to queue
+[2023-06-22T17:49:03.344+0300] {logging_mixin.py:149} INFO - [2023-06-22T17:49:03.343+0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T17:49:03.348+0300] {logging_mixin.py:149} INFO - [2023-06-22T17:49:03.347+0300] {dagbag.py:350} ERROR - Failed to import: /home/dmitry/airflow/dags/hw_dag.py
+Traceback (most recent call last):
+  File "/home/dmitry/Рабочий стол/.venv_airflow/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/dmitry/airflow/dags/hw_dag.py", line 7, in <module>
+    from modules.pipeline import pipeline
+ModuleNotFoundError: No module named 'modules'
+[2023-06-22T17:49:03.349+0300] {processor.py:838} WARNING - No viable dags retrieved from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T17:49:03.371+0300] {processor.py:179} INFO - Processing /home/dmitry/airflow/dags/hw_dag.py took 0.033 seconds
+[2023-06-22T17:49:34.615+0300] {processor.py:157} INFO - Started process (PID=16995) to work on /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T17:49:34.616+0300] {processor.py:826} INFO - Processing file /home/dmitry/airflow/dags/hw_dag.py for tasks to queue
+[2023-06-22T17:49:34.617+0300] {logging_mixin.py:149} INFO - [2023-06-22T17:49:34.617+0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T17:49:34.621+0300] {logging_mixin.py:149} INFO - [2023-06-22T17:49:34.619+0300] {dagbag.py:350} ERROR - Failed to import: /home/dmitry/airflow/dags/hw_dag.py
+Traceback (most recent call last):
+  File "/home/dmitry/Рабочий стол/.venv_airflow/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/dmitry/airflow/dags/hw_dag.py", line 7, in <module>
+    from modules.pipeline import pipeline
+ModuleNotFoundError: No module named 'modules'
+[2023-06-22T17:49:34.621+0300] {processor.py:838} WARNING - No viable dags retrieved from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T17:49:34.644+0300] {processor.py:179} INFO - Processing /home/dmitry/airflow/dags/hw_dag.py took 0.033 seconds
+[2023-06-22T17:50:07.368+0300] {processor.py:157} INFO - Started process (PID=17162) to work on /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T17:50:07.369+0300] {processor.py:826} INFO - Processing file /home/dmitry/airflow/dags/hw_dag.py for tasks to queue
+[2023-06-22T17:50:07.370+0300] {logging_mixin.py:149} INFO - [2023-06-22T17:50:07.370+0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T17:50:07.374+0300] {logging_mixin.py:149} INFO - [2023-06-22T17:50:07.372+0300] {dagbag.py:350} ERROR - Failed to import: /home/dmitry/airflow/dags/hw_dag.py
+Traceback (most recent call last):
+  File "/home/dmitry/Рабочий стол/.venv_airflow/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/dmitry/airflow/dags/hw_dag.py", line 7, in <module>
+    from modules.pipeline import pipeline
+ModuleNotFoundError: No module named 'modules'
+[2023-06-22T17:50:07.374+0300] {processor.py:838} WARNING - No viable dags retrieved from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T17:50:07.397+0300] {processor.py:179} INFO - Processing /home/dmitry/airflow/dags/hw_dag.py took 0.033 seconds
+[2023-06-22T17:50:42.449+0300] {processor.py:157} INFO - Started process (PID=17243) to work on /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T17:50:42.450+0300] {processor.py:826} INFO - Processing file /home/dmitry/airflow/dags/hw_dag.py for tasks to queue
+[2023-06-22T17:50:42.451+0300] {logging_mixin.py:149} INFO - [2023-06-22T17:50:42.450+0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T17:50:42.454+0300] {logging_mixin.py:149} INFO - [2023-06-22T17:50:42.453+0300] {dagbag.py:350} ERROR - Failed to import: /home/dmitry/airflow/dags/hw_dag.py
+Traceback (most recent call last):
+  File "/home/dmitry/Рабочий стол/.venv_airflow/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/dmitry/airflow/dags/hw_dag.py", line 7, in <module>
+    from modules.pipeline import pipeline
+ModuleNotFoundError: No module named 'modules'
+[2023-06-22T17:50:42.455+0300] {processor.py:838} WARNING - No viable dags retrieved from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T17:50:42.477+0300] {processor.py:179} INFO - Processing /home/dmitry/airflow/dags/hw_dag.py took 0.032 seconds
+[2023-06-22T17:51:17.066+0300] {processor.py:157} INFO - Started process (PID=17323) to work on /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T17:51:17.067+0300] {processor.py:826} INFO - Processing file /home/dmitry/airflow/dags/hw_dag.py for tasks to queue
+[2023-06-22T17:51:17.068+0300] {logging_mixin.py:149} INFO - [2023-06-22T17:51:17.068+0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T17:51:17.072+0300] {logging_mixin.py:149} INFO - [2023-06-22T17:51:17.071+0300] {dagbag.py:350} ERROR - Failed to import: /home/dmitry/airflow/dags/hw_dag.py
+Traceback (most recent call last):
+  File "/home/dmitry/Рабочий стол/.venv_airflow/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/dmitry/airflow/dags/hw_dag.py", line 7, in <module>
+    from modules.pipeline import pipeline
+ModuleNotFoundError: No module named 'modules'
+[2023-06-22T17:51:17.072+0300] {processor.py:838} WARNING - No viable dags retrieved from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T17:51:17.096+0300] {processor.py:179} INFO - Processing /home/dmitry/airflow/dags/hw_dag.py took 0.033 seconds
+[2023-06-22T17:51:51.896+0300] {processor.py:157} INFO - Started process (PID=17465) to work on /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T17:51:51.896+0300] {processor.py:826} INFO - Processing file /home/dmitry/airflow/dags/hw_dag.py for tasks to queue
+[2023-06-22T17:51:51.897+0300] {logging_mixin.py:149} INFO - [2023-06-22T17:51:51.897+0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T17:51:52.070+0300] {logging_mixin.py:149} INFO - [2023-06-22T17:51:52.068+0300] {dagbag.py:350} ERROR - Failed to import: /home/dmitry/airflow/dags/hw_dag.py
+Traceback (most recent call last):
+  File "/home/dmitry/Рабочий стол/.venv_airflow/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/dmitry/airflow/dags/hw_dag.py", line 15, in <module>
+    from modules.pipeline import pipeline
+  File "/home/dmitry/airflow_hw/modules/pipeline.py", line 7, in <module>
+    from sklearn.compose import ColumnTransformer, make_column_selector
+ModuleNotFoundError: No module named 'sklearn'
+[2023-06-22T17:51:52.070+0300] {processor.py:838} WARNING - No viable dags retrieved from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T17:51:52.079+0300] {processor.py:179} INFO - Processing /home/dmitry/airflow/dags/hw_dag.py took 0.185 seconds
+[2023-06-22T17:52:26.734+0300] {processor.py:157} INFO - Started process (PID=17540) to work on /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T17:52:26.735+0300] {processor.py:826} INFO - Processing file /home/dmitry/airflow/dags/hw_dag.py for tasks to queue
+[2023-06-22T17:52:26.736+0300] {logging_mixin.py:149} INFO - [2023-06-22T17:52:26.736+0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T17:52:26.927+0300] {logging_mixin.py:149} INFO - [2023-06-22T17:52:26.926+0300] {dagbag.py:350} ERROR - Failed to import: /home/dmitry/airflow/dags/hw_dag.py
+Traceback (most recent call last):
+  File "/home/dmitry/Рабочий стол/.venv_airflow/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/dmitry/airflow/dags/hw_dag.py", line 15, in <module>
+    from modules.pipeline import pipeline
+  File "/home/dmitry/airflow_hw/modules/pipeline.py", line 7, in <module>
+    from sklearn.compose import ColumnTransformer, make_column_selector
+ModuleNotFoundError: No module named 'sklearn'
+[2023-06-22T17:52:26.927+0300] {processor.py:838} WARNING - No viable dags retrieved from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T17:52:26.937+0300] {processor.py:179} INFO - Processing /home/dmitry/airflow/dags/hw_dag.py took 0.206 seconds
+[2023-06-22T17:53:04.083+0300] {processor.py:157} INFO - Started process (PID=17665) to work on /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T17:53:04.084+0300] {processor.py:826} INFO - Processing file /home/dmitry/airflow/dags/hw_dag.py for tasks to queue
+[2023-06-22T17:53:04.084+0300] {logging_mixin.py:149} INFO - [2023-06-22T17:53:04.084+0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T17:53:04.257+0300] {logging_mixin.py:149} INFO - [2023-06-22T17:53:04.256+0300] {dagbag.py:350} ERROR - Failed to import: /home/dmitry/airflow/dags/hw_dag.py
+Traceback (most recent call last):
+  File "/home/dmitry/Рабочий стол/.venv_airflow/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/dmitry/airflow/dags/hw_dag.py", line 15, in <module>
+    from modules.pipeline import pipeline
+  File "/home/dmitry/airflow_hw/modules/pipeline.py", line 7, in <module>
+    from sklearn.compose import ColumnTransformer, make_column_selector
+ModuleNotFoundError: No module named 'sklearn'
+[2023-06-22T17:53:04.257+0300] {processor.py:838} WARNING - No viable dags retrieved from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T17:53:04.267+0300] {processor.py:179} INFO - Processing /home/dmitry/airflow/dags/hw_dag.py took 0.186 seconds
+[2023-06-22T17:53:40.027+0300] {processor.py:157} INFO - Started process (PID=17797) to work on /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T17:53:40.028+0300] {processor.py:826} INFO - Processing file /home/dmitry/airflow/dags/hw_dag.py for tasks to queue
+[2023-06-22T17:53:40.029+0300] {logging_mixin.py:149} INFO - [2023-06-22T17:53:40.028+0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T17:53:40.218+0300] {logging_mixin.py:149} INFO - [2023-06-22T17:53:40.217+0300] {dagbag.py:350} ERROR - Failed to import: /home/dmitry/airflow/dags/hw_dag.py
+Traceback (most recent call last):
+  File "/home/dmitry/Рабочий стол/.venv_airflow/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/dmitry/airflow/dags/hw_dag.py", line 15, in <module>
+    from modules.pipeline import pipeline
+  File "/home/dmitry/airflow_hw/modules/pipeline.py", line 7, in <module>
+    from sklearn.compose import ColumnTransformer, make_column_selector
+ModuleNotFoundError: No module named 'sklearn'
+[2023-06-22T17:53:40.218+0300] {processor.py:838} WARNING - No viable dags retrieved from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T17:53:40.229+0300] {processor.py:179} INFO - Processing /home/dmitry/airflow/dags/hw_dag.py took 0.206 seconds
+[2023-06-22T17:54:15.341+0300] {processor.py:157} INFO - Started process (PID=17895) to work on /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T17:54:15.343+0300] {processor.py:826} INFO - Processing file /home/dmitry/airflow/dags/hw_dag.py for tasks to queue
+[2023-06-22T17:54:15.344+0300] {logging_mixin.py:149} INFO - [2023-06-22T17:54:15.344+0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T17:54:15.636+0300] {logging_mixin.py:149} INFO - [2023-06-22T17:54:15.634+0300] {dagbag.py:350} ERROR - Failed to import: /home/dmitry/airflow/dags/hw_dag.py
+Traceback (most recent call last):
+  File "/home/dmitry/Рабочий стол/.venv_airflow/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/dmitry/airflow/dags/hw_dag.py", line 15, in <module>
+    from modules.pipeline import pipeline
+  File "/home/dmitry/airflow_hw/modules/pipeline.py", line 7, in <module>
+    from sklearn.compose import ColumnTransformer, make_column_selector
+ModuleNotFoundError: No module named 'sklearn'
+[2023-06-22T17:54:15.637+0300] {processor.py:838} WARNING - No viable dags retrieved from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T17:54:15.654+0300] {processor.py:179} INFO - Processing /home/dmitry/airflow/dags/hw_dag.py took 0.317 seconds
+[2023-06-22T17:54:50.444+0300] {processor.py:157} INFO - Started process (PID=17973) to work on /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T17:54:50.446+0300] {processor.py:826} INFO - Processing file /home/dmitry/airflow/dags/hw_dag.py for tasks to queue
+[2023-06-22T17:54:50.446+0300] {logging_mixin.py:149} INFO - [2023-06-22T17:54:50.446+0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T17:54:50.730+0300] {logging_mixin.py:149} INFO - [2023-06-22T17:54:50.727+0300] {dagbag.py:350} ERROR - Failed to import: /home/dmitry/airflow/dags/hw_dag.py
+Traceback (most recent call last):
+  File "/home/dmitry/Рабочий стол/.venv_airflow/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/dmitry/airflow/dags/hw_dag.py", line 15, in <module>
+    from modules.pipeline import pipeline
+  File "/home/dmitry/airflow_hw/modules/pipeline.py", line 7, in <module>
+    from sklearn.compose import ColumnTransformer, make_column_selector
+ModuleNotFoundError: No module named 'sklearn'
+[2023-06-22T17:54:50.730+0300] {processor.py:838} WARNING - No viable dags retrieved from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T17:54:50.747+0300] {processor.py:179} INFO - Processing /home/dmitry/airflow/dags/hw_dag.py took 0.306 seconds
+[2023-06-22T17:55:25.871+0300] {processor.py:157} INFO - Started process (PID=18037) to work on /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T17:55:25.872+0300] {processor.py:826} INFO - Processing file /home/dmitry/airflow/dags/hw_dag.py for tasks to queue
+[2023-06-22T17:55:25.872+0300] {logging_mixin.py:149} INFO - [2023-06-22T17:55:25.872+0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T17:55:26.164+0300] {logging_mixin.py:149} INFO - [2023-06-22T17:55:26.161+0300] {dagbag.py:350} ERROR - Failed to import: /home/dmitry/airflow/dags/hw_dag.py
+Traceback (most recent call last):
+  File "/home/dmitry/Рабочий стол/.venv_airflow/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/dmitry/airflow/dags/hw_dag.py", line 15, in <module>
+    from modules.pipeline import pipeline
+  File "/home/dmitry/airflow_hw/modules/pipeline.py", line 7, in <module>
+    from sklearn.compose import ColumnTransformer, make_column_selector
+ModuleNotFoundError: No module named 'sklearn'
+[2023-06-22T17:55:26.164+0300] {processor.py:838} WARNING - No viable dags retrieved from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T17:55:26.183+0300] {processor.py:179} INFO - Processing /home/dmitry/airflow/dags/hw_dag.py took 0.315 seconds
+[2023-06-22T17:56:07.434+0300] {processor.py:157} INFO - Started process (PID=18135) to work on /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T17:56:07.435+0300] {processor.py:826} INFO - Processing file /home/dmitry/airflow/dags/hw_dag.py for tasks to queue
+[2023-06-22T17:56:07.436+0300] {logging_mixin.py:149} INFO - [2023-06-22T17:56:07.436+0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T17:56:07.732+0300] {logging_mixin.py:149} INFO - [2023-06-22T17:56:07.730+0300] {dagbag.py:350} ERROR - Failed to import: /home/dmitry/airflow/dags/hw_dag.py
+Traceback (most recent call last):
+  File "/home/dmitry/Рабочий стол/.venv_airflow/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/dmitry/airflow/dags/hw_dag.py", line 15, in <module>
+    from modules.pipeline import pipeline
+  File "/home/dmitry/airflow_hw/modules/pipeline.py", line 7, in <module>
+    from sklearn.compose import ColumnTransformer, make_column_selector
+ModuleNotFoundError: No module named 'sklearn'
+[2023-06-22T17:56:07.733+0300] {processor.py:838} WARNING - No viable dags retrieved from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T17:56:07.749+0300] {processor.py:179} INFO - Processing /home/dmitry/airflow/dags/hw_dag.py took 0.320 seconds
+[2023-06-22T17:56:48.962+0300] {processor.py:157} INFO - Started process (PID=18413) to work on /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T17:56:48.964+0300] {processor.py:826} INFO - Processing file /home/dmitry/airflow/dags/hw_dag.py for tasks to queue
+[2023-06-22T17:56:48.965+0300] {logging_mixin.py:149} INFO - [2023-06-22T17:56:48.964+0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T17:56:49.293+0300] {logging_mixin.py:149} INFO - [2023-06-22T17:56:49.290+0300] {dagbag.py:350} ERROR - Failed to import: /home/dmitry/airflow/dags/hw_dag.py
+Traceback (most recent call last):
+  File "/home/dmitry/Рабочий стол/.venv_airflow/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/dmitry/airflow/dags/hw_dag.py", line 15, in <module>
+    from modules.pipeline import pipeline
+  File "/home/dmitry/airflow_hw/modules/pipeline.py", line 7, in <module>
+    from sklearn.compose import ColumnTransformer, make_column_selector
+ModuleNotFoundError: No module named 'sklearn'
+[2023-06-22T17:56:49.293+0300] {processor.py:838} WARNING - No viable dags retrieved from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T17:56:49.311+0300] {processor.py:179} INFO - Processing /home/dmitry/airflow/dags/hw_dag.py took 0.353 seconds
+[2023-06-22T17:57:28.035+0300] {processor.py:157} INFO - Started process (PID=18700) to work on /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T17:57:28.037+0300] {processor.py:826} INFO - Processing file /home/dmitry/airflow/dags/hw_dag.py for tasks to queue
+[2023-06-22T17:57:28.038+0300] {logging_mixin.py:149} INFO - [2023-06-22T17:57:28.038+0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T17:57:28.331+0300] {logging_mixin.py:149} INFO - [2023-06-22T17:57:28.329+0300] {dagbag.py:350} ERROR - Failed to import: /home/dmitry/airflow/dags/hw_dag.py
+Traceback (most recent call last):
+  File "/home/dmitry/Рабочий стол/.venv_airflow/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/dmitry/airflow/dags/hw_dag.py", line 15, in <module>
+    from modules.pipeline import pipeline
+  File "/home/dmitry/airflow_hw/modules/pipeline.py", line 7, in <module>
+    from sklearn.compose import ColumnTransformer, make_column_selector
+ModuleNotFoundError: No module named 'sklearn'
+[2023-06-22T17:57:28.332+0300] {processor.py:838} WARNING - No viable dags retrieved from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T17:57:28.348+0300] {processor.py:179} INFO - Processing /home/dmitry/airflow/dags/hw_dag.py took 0.318 seconds
+[2023-06-22T17:58:05.826+0300] {processor.py:157} INFO - Started process (PID=18753) to work on /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T17:58:05.828+0300] {processor.py:826} INFO - Processing file /home/dmitry/airflow/dags/hw_dag.py for tasks to queue
+[2023-06-22T17:58:05.829+0300] {logging_mixin.py:149} INFO - [2023-06-22T17:58:05.828+0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T17:58:06.121+0300] {logging_mixin.py:149} INFO - [2023-06-22T17:58:06.119+0300] {dagbag.py:350} ERROR - Failed to import: /home/dmitry/airflow/dags/hw_dag.py
+Traceback (most recent call last):
+  File "/home/dmitry/Рабочий стол/.venv_airflow/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/dmitry/airflow/dags/hw_dag.py", line 15, in <module>
+    from modules.pipeline import pipeline
+  File "/home/dmitry/airflow_hw/modules/pipeline.py", line 7, in <module>
+    from sklearn.compose import ColumnTransformer, make_column_selector
+ModuleNotFoundError: No module named 'sklearn'
+[2023-06-22T17:58:06.122+0300] {processor.py:838} WARNING - No viable dags retrieved from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T17:58:06.138+0300] {processor.py:179} INFO - Processing /home/dmitry/airflow/dags/hw_dag.py took 0.317 seconds
+[2023-06-22T17:58:44.195+0300] {processor.py:157} INFO - Started process (PID=18838) to work on /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T17:58:44.197+0300] {processor.py:826} INFO - Processing file /home/dmitry/airflow/dags/hw_dag.py for tasks to queue
+[2023-06-22T17:58:44.198+0300] {logging_mixin.py:149} INFO - [2023-06-22T17:58:44.197+0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T17:58:44.490+0300] {logging_mixin.py:149} INFO - [2023-06-22T17:58:44.487+0300] {dagbag.py:350} ERROR - Failed to import: /home/dmitry/airflow/dags/hw_dag.py
+Traceback (most recent call last):
+  File "/home/dmitry/Рабочий стол/.venv_airflow/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/dmitry/airflow/dags/hw_dag.py", line 15, in <module>
+    from modules.pipeline import pipeline
+  File "/home/dmitry/airflow_hw/modules/pipeline.py", line 7, in <module>
+    from sklearn.compose import ColumnTransformer, make_column_selector
+ModuleNotFoundError: No module named 'sklearn'
+[2023-06-22T17:58:44.490+0300] {processor.py:838} WARNING - No viable dags retrieved from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T17:58:44.506+0300] {processor.py:179} INFO - Processing /home/dmitry/airflow/dags/hw_dag.py took 0.316 seconds
+[2023-06-22T17:59:23.996+0300] {processor.py:157} INFO - Started process (PID=18910) to work on /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T17:59:23.998+0300] {processor.py:826} INFO - Processing file /home/dmitry/airflow/dags/hw_dag.py for tasks to queue
+[2023-06-22T17:59:23.999+0300] {logging_mixin.py:149} INFO - [2023-06-22T17:59:23.999+0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T17:59:24.295+0300] {logging_mixin.py:149} INFO - [2023-06-22T17:59:24.293+0300] {dagbag.py:350} ERROR - Failed to import: /home/dmitry/airflow/dags/hw_dag.py
+Traceback (most recent call last):
+  File "/home/dmitry/Рабочий стол/.venv_airflow/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/dmitry/airflow/dags/hw_dag.py", line 15, in <module>
+    from modules.pipeline import pipeline
+  File "/home/dmitry/airflow_hw/modules/pipeline.py", line 7, in <module>
+    from sklearn.compose import ColumnTransformer, make_column_selector
+ModuleNotFoundError: No module named 'sklearn'
+[2023-06-22T17:59:24.295+0300] {processor.py:838} WARNING - No viable dags retrieved from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T17:59:24.312+0300] {processor.py:179} INFO - Processing /home/dmitry/airflow/dags/hw_dag.py took 0.320 seconds
+[2023-06-22T17:59:57.769+0300] {processor.py:157} INFO - Started process (PID=18967) to work on /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T17:59:57.770+0300] {processor.py:826} INFO - Processing file /home/dmitry/airflow/dags/hw_dag.py for tasks to queue
+[2023-06-22T17:59:57.771+0300] {logging_mixin.py:149} INFO - [2023-06-22T17:59:57.771+0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T17:59:57.964+0300] {logging_mixin.py:149} INFO - [2023-06-22T17:59:57.962+0300] {dagbag.py:350} ERROR - Failed to import: /home/dmitry/airflow/dags/hw_dag.py
+Traceback (most recent call last):
+  File "/home/dmitry/Рабочий стол/.venv_airflow/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/dmitry/airflow/dags/hw_dag.py", line 15, in <module>
+    from modules.pipeline import pipeline
+  File "/home/dmitry/airflow_hw/modules/pipeline.py", line 7, in <module>
+    from sklearn.compose import ColumnTransformer, make_column_selector
+ModuleNotFoundError: No module named 'sklearn'
+[2023-06-22T17:59:57.964+0300] {processor.py:838} WARNING - No viable dags retrieved from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T17:59:57.974+0300] {processor.py:179} INFO - Processing /home/dmitry/airflow/dags/hw_dag.py took 0.208 seconds
+[2023-06-22T18:00:29.872+0300] {processor.py:157} INFO - Started process (PID=19046) to work on /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T18:00:29.873+0300] {processor.py:826} INFO - Processing file /home/dmitry/airflow/dags/hw_dag.py for tasks to queue
+[2023-06-22T18:00:29.873+0300] {logging_mixin.py:149} INFO - [2023-06-22T18:00:29.873+0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T18:00:30.064+0300] {logging_mixin.py:149} INFO - [2023-06-22T18:00:30.063+0300] {dagbag.py:350} ERROR - Failed to import: /home/dmitry/airflow/dags/hw_dag.py
+Traceback (most recent call last):
+  File "/home/dmitry/Рабочий стол/.venv_airflow/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/dmitry/airflow/dags/hw_dag.py", line 15, in <module>
+    from modules.pipeline import pipeline
+  File "/home/dmitry/airflow_hw/modules/pipeline.py", line 7, in <module>
+    from sklearn.compose import ColumnTransformer, make_column_selector
+ModuleNotFoundError: No module named 'sklearn'
+[2023-06-22T18:00:30.065+0300] {processor.py:838} WARNING - No viable dags retrieved from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T18:00:30.074+0300] {processor.py:179} INFO - Processing /home/dmitry/airflow/dags/hw_dag.py took 0.206 seconds
+[2023-06-22T18:01:06.266+0300] {processor.py:157} INFO - Started process (PID=19131) to work on /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T18:01:06.267+0300] {processor.py:826} INFO - Processing file /home/dmitry/airflow/dags/hw_dag.py for tasks to queue
+[2023-06-22T18:01:06.268+0300] {logging_mixin.py:149} INFO - [2023-06-22T18:01:06.268+0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T18:01:06.457+0300] {logging_mixin.py:149} INFO - [2023-06-22T18:01:06.455+0300] {dagbag.py:350} ERROR - Failed to import: /home/dmitry/airflow/dags/hw_dag.py
+Traceback (most recent call last):
+  File "/home/dmitry/Рабочий стол/.venv_airflow/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/dmitry/airflow/dags/hw_dag.py", line 15, in <module>
+    from modules.pipeline import pipeline
+  File "/home/dmitry/airflow_hw/modules/pipeline.py", line 7, in <module>
+    from sklearn.compose import ColumnTransformer, make_column_selector
+ModuleNotFoundError: No module named 'sklearn'
+[2023-06-22T18:01:06.457+0300] {processor.py:838} WARNING - No viable dags retrieved from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T18:01:06.467+0300] {processor.py:179} INFO - Processing /home/dmitry/airflow/dags/hw_dag.py took 0.204 seconds
+[2023-06-22T18:01:42.395+0300] {processor.py:157} INFO - Started process (PID=19186) to work on /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T18:01:42.396+0300] {processor.py:826} INFO - Processing file /home/dmitry/airflow/dags/hw_dag.py for tasks to queue
+[2023-06-22T18:01:42.397+0300] {logging_mixin.py:149} INFO - [2023-06-22T18:01:42.397+0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T18:01:42.585+0300] {logging_mixin.py:149} INFO - [2023-06-22T18:01:42.584+0300] {dagbag.py:350} ERROR - Failed to import: /home/dmitry/airflow/dags/hw_dag.py
+Traceback (most recent call last):
+  File "/home/dmitry/Рабочий стол/.venv_airflow/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/dmitry/airflow/dags/hw_dag.py", line 15, in <module>
+    from modules.pipeline import pipeline
+  File "/home/dmitry/airflow_hw/modules/pipeline.py", line 7, in <module>
+    from sklearn.compose import ColumnTransformer, make_column_selector
+ModuleNotFoundError: No module named 'sklearn'
+[2023-06-22T18:01:42.586+0300] {processor.py:838} WARNING - No viable dags retrieved from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T18:01:42.596+0300] {processor.py:179} INFO - Processing /home/dmitry/airflow/dags/hw_dag.py took 0.205 seconds
+[2023-06-22T18:02:17.552+0300] {processor.py:157} INFO - Started process (PID=19254) to work on /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T18:02:17.553+0300] {processor.py:826} INFO - Processing file /home/dmitry/airflow/dags/hw_dag.py for tasks to queue
+[2023-06-22T18:02:17.554+0300] {logging_mixin.py:149} INFO - [2023-06-22T18:02:17.554+0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T18:02:17.746+0300] {logging_mixin.py:149} INFO - [2023-06-22T18:02:17.744+0300] {dagbag.py:350} ERROR - Failed to import: /home/dmitry/airflow/dags/hw_dag.py
+Traceback (most recent call last):
+  File "/home/dmitry/Рабочий стол/.venv_airflow/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/dmitry/airflow/dags/hw_dag.py", line 15, in <module>
+    from modules.pipeline import pipeline
+  File "/home/dmitry/airflow_hw/modules/pipeline.py", line 7, in <module>
+    from sklearn.compose import ColumnTransformer, make_column_selector
+ModuleNotFoundError: No module named 'sklearn'
+[2023-06-22T18:02:17.746+0300] {processor.py:838} WARNING - No viable dags retrieved from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T18:02:17.756+0300] {processor.py:179} INFO - Processing /home/dmitry/airflow/dags/hw_dag.py took 0.208 seconds
+[2023-06-22T18:02:52.875+0300] {processor.py:157} INFO - Started process (PID=19323) to work on /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T18:02:52.876+0300] {processor.py:826} INFO - Processing file /home/dmitry/airflow/dags/hw_dag.py for tasks to queue
+[2023-06-22T18:02:52.877+0300] {logging_mixin.py:149} INFO - [2023-06-22T18:02:52.877+0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T18:02:53.069+0300] {logging_mixin.py:149} INFO - [2023-06-22T18:02:53.067+0300] {dagbag.py:350} ERROR - Failed to import: /home/dmitry/airflow/dags/hw_dag.py
+Traceback (most recent call last):
+  File "/home/dmitry/Рабочий стол/.venv_airflow/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/dmitry/airflow/dags/hw_dag.py", line 15, in <module>
+    from modules.pipeline import pipeline
+  File "/home/dmitry/airflow_hw/modules/pipeline.py", line 7, in <module>
+    from sklearn.compose import ColumnTransformer, make_column_selector
+ModuleNotFoundError: No module named 'sklearn'
+[2023-06-22T18:02:53.069+0300] {processor.py:838} WARNING - No viable dags retrieved from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T18:02:53.079+0300] {processor.py:179} INFO - Processing /home/dmitry/airflow/dags/hw_dag.py took 0.208 seconds
+[2023-06-22T18:03:25.422+0300] {processor.py:157} INFO - Started process (PID=19372) to work on /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T18:03:25.423+0300] {processor.py:826} INFO - Processing file /home/dmitry/airflow/dags/hw_dag.py for tasks to queue
+[2023-06-22T18:03:25.424+0300] {logging_mixin.py:149} INFO - [2023-06-22T18:03:25.424+0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T18:03:25.604+0300] {logging_mixin.py:149} INFO - [2023-06-22T18:03:25.603+0300] {dagbag.py:350} ERROR - Failed to import: /home/dmitry/airflow/dags/hw_dag.py
+Traceback (most recent call last):
+  File "/home/dmitry/Рабочий стол/.venv_airflow/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/dmitry/airflow/dags/hw_dag.py", line 15, in <module>
+    from modules.pipeline import pipeline
+  File "/home/dmitry/airflow_hw/modules/pipeline.py", line 7, in <module>
+    from sklearn.compose import ColumnTransformer, make_column_selector
+ModuleNotFoundError: No module named 'sklearn'
+[2023-06-22T18:03:25.604+0300] {processor.py:838} WARNING - No viable dags retrieved from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T18:03:25.614+0300] {processor.py:179} INFO - Processing /home/dmitry/airflow/dags/hw_dag.py took 0.196 seconds
+[2023-06-22T18:03:59.327+0300] {processor.py:157} INFO - Started process (PID=19449) to work on /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T18:03:59.328+0300] {processor.py:826} INFO - Processing file /home/dmitry/airflow/dags/hw_dag.py for tasks to queue
+[2023-06-22T18:03:59.329+0300] {logging_mixin.py:149} INFO - [2023-06-22T18:03:59.329+0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T18:03:59.520+0300] {logging_mixin.py:149} INFO - [2023-06-22T18:03:59.519+0300] {dagbag.py:350} ERROR - Failed to import: /home/dmitry/airflow/dags/hw_dag.py
+Traceback (most recent call last):
+  File "/home/dmitry/Рабочий стол/.venv_airflow/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/dmitry/airflow/dags/hw_dag.py", line 15, in <module>
+    from modules.pipeline import pipeline
+  File "/home/dmitry/airflow_hw/modules/pipeline.py", line 7, in <module>
+    from sklearn.compose import ColumnTransformer, make_column_selector
+ModuleNotFoundError: No module named 'sklearn'
+[2023-06-22T18:03:59.520+0300] {processor.py:838} WARNING - No viable dags retrieved from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T18:03:59.530+0300] {processor.py:179} INFO - Processing /home/dmitry/airflow/dags/hw_dag.py took 0.207 seconds
+[2023-06-22T18:04:33.942+0300] {processor.py:157} INFO - Started process (PID=19520) to work on /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T18:04:33.943+0300] {processor.py:826} INFO - Processing file /home/dmitry/airflow/dags/hw_dag.py for tasks to queue
+[2023-06-22T18:04:33.944+0300] {logging_mixin.py:149} INFO - [2023-06-22T18:04:33.943+0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T18:04:34.134+0300] {logging_mixin.py:149} INFO - [2023-06-22T18:04:34.133+0300] {dagbag.py:350} ERROR - Failed to import: /home/dmitry/airflow/dags/hw_dag.py
+Traceback (most recent call last):
+  File "/home/dmitry/Рабочий стол/.venv_airflow/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/dmitry/airflow/dags/hw_dag.py", line 15, in <module>
+    from modules.pipeline import pipeline
+  File "/home/dmitry/airflow_hw/modules/pipeline.py", line 7, in <module>
+    from sklearn.compose import ColumnTransformer, make_column_selector
+ModuleNotFoundError: No module named 'sklearn'
+[2023-06-22T18:04:34.134+0300] {processor.py:838} WARNING - No viable dags retrieved from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T18:04:34.144+0300] {processor.py:179} INFO - Processing /home/dmitry/airflow/dags/hw_dag.py took 0.206 seconds
+[2023-06-22T18:05:10.117+0300] {processor.py:157} INFO - Started process (PID=19590) to work on /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T18:05:10.119+0300] {processor.py:826} INFO - Processing file /home/dmitry/airflow/dags/hw_dag.py for tasks to queue
+[2023-06-22T18:05:10.119+0300] {logging_mixin.py:149} INFO - [2023-06-22T18:05:10.119+0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T18:05:10.310+0300] {logging_mixin.py:149} INFO - [2023-06-22T18:05:10.309+0300] {dagbag.py:350} ERROR - Failed to import: /home/dmitry/airflow/dags/hw_dag.py
+Traceback (most recent call last):
+  File "/home/dmitry/Рабочий стол/.venv_airflow/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/dmitry/airflow/dags/hw_dag.py", line 15, in <module>
+    from modules.pipeline import pipeline
+  File "/home/dmitry/airflow_hw/modules/pipeline.py", line 7, in <module>
+    from sklearn.compose import ColumnTransformer, make_column_selector
+ModuleNotFoundError: No module named 'sklearn'
+[2023-06-22T18:05:10.310+0300] {processor.py:838} WARNING - No viable dags retrieved from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T18:05:10.320+0300] {processor.py:179} INFO - Processing /home/dmitry/airflow/dags/hw_dag.py took 0.207 seconds
+[2023-06-22T18:05:43.881+0300] {processor.py:157} INFO - Started process (PID=19657) to work on /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T18:05:43.882+0300] {processor.py:826} INFO - Processing file /home/dmitry/airflow/dags/hw_dag.py for tasks to queue
+[2023-06-22T18:05:43.883+0300] {logging_mixin.py:149} INFO - [2023-06-22T18:05:43.883+0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T18:05:44.074+0300] {logging_mixin.py:149} INFO - [2023-06-22T18:05:44.073+0300] {dagbag.py:350} ERROR - Failed to import: /home/dmitry/airflow/dags/hw_dag.py
+Traceback (most recent call last):
+  File "/home/dmitry/Рабочий стол/.venv_airflow/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/dmitry/airflow/dags/hw_dag.py", line 15, in <module>
+    from modules.pipeline import pipeline
+  File "/home/dmitry/airflow_hw/modules/pipeline.py", line 7, in <module>
+    from sklearn.compose import ColumnTransformer, make_column_selector
+ModuleNotFoundError: No module named 'sklearn'
+[2023-06-22T18:05:44.074+0300] {processor.py:838} WARNING - No viable dags retrieved from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T18:05:44.085+0300] {processor.py:179} INFO - Processing /home/dmitry/airflow/dags/hw_dag.py took 0.208 seconds
+[2023-06-22T18:06:16.001+0300] {processor.py:157} INFO - Started process (PID=19722) to work on /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T18:06:16.003+0300] {processor.py:826} INFO - Processing file /home/dmitry/airflow/dags/hw_dag.py for tasks to queue
+[2023-06-22T18:06:16.004+0300] {logging_mixin.py:149} INFO - [2023-06-22T18:06:16.003+0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T18:06:16.193+0300] {logging_mixin.py:149} INFO - [2023-06-22T18:06:16.192+0300] {dagbag.py:350} ERROR - Failed to import: /home/dmitry/airflow/dags/hw_dag.py
+Traceback (most recent call last):
+  File "/home/dmitry/Рабочий стол/.venv_airflow/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/dmitry/airflow/dags/hw_dag.py", line 15, in <module>
+    from modules.pipeline import pipeline
+  File "/home/dmitry/airflow_hw/modules/pipeline.py", line 7, in <module>
+    from sklearn.compose import ColumnTransformer, make_column_selector
+ModuleNotFoundError: No module named 'sklearn'
+[2023-06-22T18:06:16.193+0300] {processor.py:838} WARNING - No viable dags retrieved from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T18:06:16.204+0300] {processor.py:179} INFO - Processing /home/dmitry/airflow/dags/hw_dag.py took 0.206 seconds
+[2023-06-22T18:06:49.819+0300] {processor.py:157} INFO - Started process (PID=19775) to work on /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T18:06:49.820+0300] {processor.py:826} INFO - Processing file /home/dmitry/airflow/dags/hw_dag.py for tasks to queue
+[2023-06-22T18:06:49.821+0300] {logging_mixin.py:149} INFO - [2023-06-22T18:06:49.821+0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T18:06:50.011+0300] {logging_mixin.py:149} INFO - [2023-06-22T18:06:50.010+0300] {dagbag.py:350} ERROR - Failed to import: /home/dmitry/airflow/dags/hw_dag.py
+Traceback (most recent call last):
+  File "/home/dmitry/Рабочий стол/.venv_airflow/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/dmitry/airflow/dags/hw_dag.py", line 15, in <module>
+    from modules.pipeline import pipeline
+  File "/home/dmitry/airflow_hw/modules/pipeline.py", line 7, in <module>
+    from sklearn.compose import ColumnTransformer, make_column_selector
+ModuleNotFoundError: No module named 'sklearn'
+[2023-06-22T18:06:50.012+0300] {processor.py:838} WARNING - No viable dags retrieved from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T18:06:50.021+0300] {processor.py:179} INFO - Processing /home/dmitry/airflow/dags/hw_dag.py took 0.206 seconds
+[2023-06-22T18:07:22.241+0300] {processor.py:157} INFO - Started process (PID=19841) to work on /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T18:07:22.242+0300] {processor.py:826} INFO - Processing file /home/dmitry/airflow/dags/hw_dag.py for tasks to queue
+[2023-06-22T18:07:22.242+0300] {logging_mixin.py:149} INFO - [2023-06-22T18:07:22.242+0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T18:07:22.412+0300] {logging_mixin.py:149} INFO - [2023-06-22T18:07:22.411+0300] {dagbag.py:350} ERROR - Failed to import: /home/dmitry/airflow/dags/hw_dag.py
+Traceback (most recent call last):
+  File "/home/dmitry/Рабочий стол/.venv_airflow/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/dmitry/airflow/dags/hw_dag.py", line 15, in <module>
+    from modules.pipeline import pipeline
+  File "/home/dmitry/airflow_hw/modules/pipeline.py", line 7, in <module>
+    from sklearn.compose import ColumnTransformer, make_column_selector
+ModuleNotFoundError: No module named 'sklearn'
+[2023-06-22T18:07:22.412+0300] {processor.py:838} WARNING - No viable dags retrieved from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T18:07:22.422+0300] {processor.py:179} INFO - Processing /home/dmitry/airflow/dags/hw_dag.py took 0.183 seconds
+[2023-06-22T18:07:57.175+0300] {processor.py:157} INFO - Started process (PID=19911) to work on /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T18:07:57.176+0300] {processor.py:826} INFO - Processing file /home/dmitry/airflow/dags/hw_dag.py for tasks to queue
+[2023-06-22T18:07:57.176+0300] {logging_mixin.py:149} INFO - [2023-06-22T18:07:57.176+0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T18:07:57.346+0300] {logging_mixin.py:149} INFO - [2023-06-22T18:07:57.345+0300] {dagbag.py:350} ERROR - Failed to import: /home/dmitry/airflow/dags/hw_dag.py
+Traceback (most recent call last):
+  File "/home/dmitry/Рабочий стол/.venv_airflow/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/dmitry/airflow/dags/hw_dag.py", line 15, in <module>
+    from modules.pipeline import pipeline
+  File "/home/dmitry/airflow_hw/modules/pipeline.py", line 7, in <module>
+    from sklearn.compose import ColumnTransformer, make_column_selector
+ModuleNotFoundError: No module named 'sklearn'
+[2023-06-22T18:07:57.346+0300] {processor.py:838} WARNING - No viable dags retrieved from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T18:07:57.356+0300] {processor.py:179} INFO - Processing /home/dmitry/airflow/dags/hw_dag.py took 0.183 seconds
+[2023-06-22T18:08:31.799+0300] {processor.py:157} INFO - Started process (PID=19965) to work on /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T18:08:31.801+0300] {processor.py:826} INFO - Processing file /home/dmitry/airflow/dags/hw_dag.py for tasks to queue
+[2023-06-22T18:08:31.801+0300] {logging_mixin.py:149} INFO - [2023-06-22T18:08:31.801+0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T18:08:31.996+0300] {logging_mixin.py:149} INFO - [2023-06-22T18:08:31.995+0300] {dagbag.py:350} ERROR - Failed to import: /home/dmitry/airflow/dags/hw_dag.py
+Traceback (most recent call last):
+  File "/home/dmitry/Рабочий стол/.venv_airflow/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/dmitry/airflow/dags/hw_dag.py", line 15, in <module>
+    from modules.pipeline import pipeline
+  File "/home/dmitry/airflow_hw/modules/pipeline.py", line 7, in <module>
+    from sklearn.compose import ColumnTransformer, make_column_selector
+ModuleNotFoundError: No module named 'sklearn'
+[2023-06-22T18:08:31.996+0300] {processor.py:838} WARNING - No viable dags retrieved from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T18:08:32.007+0300] {processor.py:179} INFO - Processing /home/dmitry/airflow/dags/hw_dag.py took 0.211 seconds
+[2023-06-22T18:09:04.169+0300] {processor.py:157} INFO - Started process (PID=20101) to work on /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T18:09:04.170+0300] {processor.py:826} INFO - Processing file /home/dmitry/airflow/dags/hw_dag.py for tasks to queue
+[2023-06-22T18:09:04.171+0300] {logging_mixin.py:149} INFO - [2023-06-22T18:09:04.171+0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T18:09:04.362+0300] {logging_mixin.py:149} INFO - [2023-06-22T18:09:04.361+0300] {dagbag.py:350} ERROR - Failed to import: /home/dmitry/airflow/dags/hw_dag.py
+Traceback (most recent call last):
+  File "/home/dmitry/Рабочий стол/.venv_airflow/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/dmitry/airflow/dags/hw_dag.py", line 15, in <module>
+    from modules.pipeline import pipeline
+  File "/home/dmitry/airflow_hw/modules/pipeline.py", line 7, in <module>
+    from sklearn.compose import ColumnTransformer, make_column_selector
+ModuleNotFoundError: No module named 'sklearn'
+[2023-06-22T18:09:04.362+0300] {processor.py:838} WARNING - No viable dags retrieved from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T18:09:04.372+0300] {processor.py:179} INFO - Processing /home/dmitry/airflow/dags/hw_dag.py took 0.207 seconds
+[2023-06-22T18:09:34.834+0300] {processor.py:157} INFO - Started process (PID=20185) to work on /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T18:09:34.836+0300] {processor.py:826} INFO - Processing file /home/dmitry/airflow/dags/hw_dag.py for tasks to queue
+[2023-06-22T18:09:34.836+0300] {logging_mixin.py:149} INFO - [2023-06-22T18:09:34.836+0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T18:09:35.027+0300] {logging_mixin.py:149} INFO - [2023-06-22T18:09:35.026+0300] {dagbag.py:350} ERROR - Failed to import: /home/dmitry/airflow/dags/hw_dag.py
+Traceback (most recent call last):
+  File "/home/dmitry/Рабочий стол/.venv_airflow/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/dmitry/airflow/dags/hw_dag.py", line 15, in <module>
+    from modules.pipeline import pipeline
+  File "/home/dmitry/airflow_hw/modules/pipeline.py", line 7, in <module>
+    from sklearn.compose import ColumnTransformer, make_column_selector
+ModuleNotFoundError: No module named 'sklearn'
+[2023-06-22T18:09:35.027+0300] {processor.py:838} WARNING - No viable dags retrieved from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T18:09:35.037+0300] {processor.py:179} INFO - Processing /home/dmitry/airflow/dags/hw_dag.py took 0.207 seconds
+[2023-06-22T18:10:08.807+0300] {processor.py:157} INFO - Started process (PID=20423) to work on /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T18:10:08.808+0300] {processor.py:826} INFO - Processing file /home/dmitry/airflow/dags/hw_dag.py for tasks to queue
+[2023-06-22T18:10:08.809+0300] {logging_mixin.py:149} INFO - [2023-06-22T18:10:08.809+0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T18:10:09.021+0300] {logging_mixin.py:149} INFO - [2023-06-22T18:10:09.020+0300] {dagbag.py:350} ERROR - Failed to import: /home/dmitry/airflow/dags/hw_dag.py
+Traceback (most recent call last):
+  File "/home/dmitry/Рабочий стол/.venv_airflow/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/dmitry/airflow/dags/hw_dag.py", line 15, in <module>
+    from modules.pipeline import pipeline
+  File "/home/dmitry/airflow_hw/modules/pipeline.py", line 7, in <module>
+    from sklearn.compose import ColumnTransformer, make_column_selector
+ModuleNotFoundError: No module named 'sklearn'
+[2023-06-22T18:10:09.022+0300] {processor.py:838} WARNING - No viable dags retrieved from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T18:10:09.051+0300] {processor.py:179} INFO - Processing /home/dmitry/airflow/dags/hw_dag.py took 0.248 seconds
+[2023-06-22T18:10:42.088+0300] {processor.py:157} INFO - Started process (PID=20539) to work on /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T18:10:42.090+0300] {processor.py:826} INFO - Processing file /home/dmitry/airflow/dags/hw_dag.py for tasks to queue
+[2023-06-22T18:10:42.090+0300] {logging_mixin.py:149} INFO - [2023-06-22T18:10:42.090+0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T18:10:42.282+0300] {logging_mixin.py:149} INFO - [2023-06-22T18:10:42.280+0300] {dagbag.py:350} ERROR - Failed to import: /home/dmitry/airflow/dags/hw_dag.py
+Traceback (most recent call last):
+  File "/home/dmitry/Рабочий стол/.venv_airflow/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/dmitry/airflow/dags/hw_dag.py", line 15, in <module>
+    from modules.pipeline import pipeline
+  File "/home/dmitry/airflow_hw/modules/pipeline.py", line 7, in <module>
+    from sklearn.compose import ColumnTransformer, make_column_selector
+ModuleNotFoundError: No module named 'sklearn'
+[2023-06-22T18:10:42.282+0300] {processor.py:838} WARNING - No viable dags retrieved from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T18:10:42.293+0300] {processor.py:179} INFO - Processing /home/dmitry/airflow/dags/hw_dag.py took 0.209 seconds
+[2023-06-22T18:11:13.567+0300] {processor.py:157} INFO - Started process (PID=20676) to work on /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T18:11:13.568+0300] {processor.py:826} INFO - Processing file /home/dmitry/airflow/dags/hw_dag.py for tasks to queue
+[2023-06-22T18:11:13.568+0300] {logging_mixin.py:149} INFO - [2023-06-22T18:11:13.568+0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T18:11:13.745+0300] {logging_mixin.py:149} INFO - [2023-06-22T18:11:13.744+0300] {dagbag.py:350} ERROR - Failed to import: /home/dmitry/airflow/dags/hw_dag.py
+Traceback (most recent call last):
+  File "/home/dmitry/Рабочий стол/.venv_airflow/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/dmitry/airflow/dags/hw_dag.py", line 15, in <module>
+    from modules.pipeline import pipeline
+  File "/home/dmitry/airflow_hw/modules/pipeline.py", line 7, in <module>
+    from sklearn.compose import ColumnTransformer, make_column_selector
+ModuleNotFoundError: No module named 'sklearn'
+[2023-06-22T18:11:13.746+0300] {processor.py:838} WARNING - No viable dags retrieved from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T18:11:13.756+0300] {processor.py:179} INFO - Processing /home/dmitry/airflow/dags/hw_dag.py took 0.191 seconds
+[2023-06-22T18:11:44.679+0300] {processor.py:157} INFO - Started process (PID=20823) to work on /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T18:11:44.680+0300] {processor.py:826} INFO - Processing file /home/dmitry/airflow/dags/hw_dag.py for tasks to queue
+[2023-06-22T18:11:44.681+0300] {logging_mixin.py:149} INFO - [2023-06-22T18:11:44.681+0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T18:11:44.884+0300] {logging_mixin.py:149} INFO - [2023-06-22T18:11:44.882+0300] {dagbag.py:350} ERROR - Failed to import: /home/dmitry/airflow/dags/hw_dag.py
+Traceback (most recent call last):
+  File "/home/dmitry/Рабочий стол/.venv_airflow/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/dmitry/airflow/dags/hw_dag.py", line 15, in <module>
+    from modules.pipeline import pipeline
+  File "/home/dmitry/airflow_hw/modules/pipeline.py", line 7, in <module>
+    from sklearn.compose import ColumnTransformer, make_column_selector
+ModuleNotFoundError: No module named 'sklearn'
+[2023-06-22T18:11:44.885+0300] {processor.py:838} WARNING - No viable dags retrieved from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T18:11:44.898+0300] {processor.py:179} INFO - Processing /home/dmitry/airflow/dags/hw_dag.py took 0.223 seconds
+[2023-06-22T18:12:18.602+0300] {processor.py:157} INFO - Started process (PID=20926) to work on /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T18:12:18.603+0300] {processor.py:826} INFO - Processing file /home/dmitry/airflow/dags/hw_dag.py for tasks to queue
+[2023-06-22T18:12:18.604+0300] {logging_mixin.py:149} INFO - [2023-06-22T18:12:18.604+0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T18:12:18.793+0300] {logging_mixin.py:149} INFO - [2023-06-22T18:12:18.791+0300] {dagbag.py:350} ERROR - Failed to import: /home/dmitry/airflow/dags/hw_dag.py
+Traceback (most recent call last):
+  File "/home/dmitry/Рабочий стол/.venv_airflow/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/dmitry/airflow/dags/hw_dag.py", line 15, in <module>
+    from modules.pipeline import pipeline
+  File "/home/dmitry/airflow_hw/modules/pipeline.py", line 7, in <module>
+    from sklearn.compose import ColumnTransformer, make_column_selector
+ModuleNotFoundError: No module named 'sklearn'
+[2023-06-22T18:12:18.793+0300] {processor.py:838} WARNING - No viable dags retrieved from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T18:12:18.803+0300] {processor.py:179} INFO - Processing /home/dmitry/airflow/dags/hw_dag.py took 0.205 seconds
+[2023-06-22T18:12:52.353+0300] {processor.py:157} INFO - Started process (PID=21037) to work on /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T18:12:52.354+0300] {processor.py:826} INFO - Processing file /home/dmitry/airflow/dags/hw_dag.py for tasks to queue
+[2023-06-22T18:12:52.355+0300] {logging_mixin.py:149} INFO - [2023-06-22T18:12:52.355+0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T18:12:52.547+0300] {logging_mixin.py:149} INFO - [2023-06-22T18:12:52.546+0300] {dagbag.py:350} ERROR - Failed to import: /home/dmitry/airflow/dags/hw_dag.py
+Traceback (most recent call last):
+  File "/home/dmitry/Рабочий стол/.venv_airflow/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/dmitry/airflow/dags/hw_dag.py", line 15, in <module>
+    from modules.pipeline import pipeline
+  File "/home/dmitry/airflow_hw/modules/pipeline.py", line 7, in <module>
+    from sklearn.compose import ColumnTransformer, make_column_selector
+ModuleNotFoundError: No module named 'sklearn'
+[2023-06-22T18:12:52.548+0300] {processor.py:838} WARNING - No viable dags retrieved from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T18:12:52.558+0300] {processor.py:179} INFO - Processing /home/dmitry/airflow/dags/hw_dag.py took 0.209 seconds
+[2023-06-22T20:37:50.943+0300] {processor.py:157} INFO - Started process (PID=5758) to work on /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T20:37:50.944+0300] {processor.py:826} INFO - Processing file /home/dmitry/airflow/dags/hw_dag.py for tasks to queue
+[2023-06-22T20:37:50.945+0300] {logging_mixin.py:149} INFO - [2023-06-22T20:37:50.945+0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T20:37:51.417+0300] {logging_mixin.py:149} INFO - [2023-06-22T20:37:51.416+0300] {dagbag.py:350} ERROR - Failed to import: /home/dmitry/airflow/dags/hw_dag.py
+Traceback (most recent call last):
+  File "/home/dmitry/Рабочий стол/.venv_airflow/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/dmitry/airflow/dags/hw_dag.py", line 14, in <module>
+    from modules.pipeline import pipeline
+  File "/home/dmitry/airflow/modules/pipeline.py", line 7, in <module>
+    from sklearn.compose import ColumnTransformer, make_column_selector
+ModuleNotFoundError: No module named 'sklearn'
+[2023-06-22T20:37:51.417+0300] {processor.py:838} WARNING - No viable dags retrieved from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T20:37:51.426+0300] {processor.py:179} INFO - Processing /home/dmitry/airflow/dags/hw_dag.py took 0.486 seconds
+[2023-06-22T20:38:41.701+0300] {processor.py:157} INFO - Started process (PID=6053) to work on /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T20:38:41.702+0300] {processor.py:826} INFO - Processing file /home/dmitry/airflow/dags/hw_dag.py for tasks to queue
+[2023-06-22T20:38:41.703+0300] {logging_mixin.py:149} INFO - [2023-06-22T20:38:41.703+0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T20:38:41.970+0300] {logging_mixin.py:149} INFO - [2023-06-22T20:38:41.969+0300] {dagbag.py:350} ERROR - Failed to import: /home/dmitry/airflow/dags/hw_dag.py
+Traceback (most recent call last):
+  File "/home/dmitry/Рабочий стол/.venv_airflow/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/dmitry/airflow/dags/hw_dag.py", line 14, in <module>
+    from modules.pipeline import pipeline
+  File "/home/dmitry/airflow/modules/pipeline.py", line 7, in <module>
+    from sklearn.compose import ColumnTransformer, make_column_selector
+ModuleNotFoundError: No module named 'sklearn'
+[2023-06-22T20:38:41.970+0300] {processor.py:838} WARNING - No viable dags retrieved from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T20:38:41.979+0300] {processor.py:179} INFO - Processing /home/dmitry/airflow/dags/hw_dag.py took 0.282 seconds
+[2023-06-22T20:39:20.082+0300] {processor.py:157} INFO - Started process (PID=6201) to work on /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T20:39:20.082+0300] {processor.py:826} INFO - Processing file /home/dmitry/airflow/dags/hw_dag.py for tasks to queue
+[2023-06-22T20:39:20.083+0300] {logging_mixin.py:149} INFO - [2023-06-22T20:39:20.083+0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T20:39:20.252+0300] {logging_mixin.py:149} INFO - [2023-06-22T20:39:20.251+0300] {dagbag.py:350} ERROR - Failed to import: /home/dmitry/airflow/dags/hw_dag.py
+Traceback (most recent call last):
+  File "/home/dmitry/Рабочий стол/.venv_airflow/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/dmitry/airflow/dags/hw_dag.py", line 14, in <module>
+    from modules.pipeline import pipeline
+  File "/home/dmitry/airflow/modules/pipeline.py", line 7, in <module>
+    from sklearn.compose import ColumnTransformer, make_column_selector
+ModuleNotFoundError: No module named 'sklearn'
+[2023-06-22T20:39:20.252+0300] {processor.py:838} WARNING - No viable dags retrieved from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T20:39:20.262+0300] {processor.py:179} INFO - Processing /home/dmitry/airflow/dags/hw_dag.py took 0.182 seconds
+[2023-06-22T20:39:52.305+0300] {processor.py:157} INFO - Started process (PID=6257) to work on /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T20:39:52.306+0300] {processor.py:826} INFO - Processing file /home/dmitry/airflow/dags/hw_dag.py for tasks to queue
+[2023-06-22T20:39:52.307+0300] {logging_mixin.py:149} INFO - [2023-06-22T20:39:52.307+0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T20:39:52.496+0300] {logging_mixin.py:149} INFO - [2023-06-22T20:39:52.495+0300] {dagbag.py:350} ERROR - Failed to import: /home/dmitry/airflow/dags/hw_dag.py
+Traceback (most recent call last):
+  File "/home/dmitry/Рабочий стол/.venv_airflow/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/dmitry/airflow/dags/hw_dag.py", line 14, in <module>
+    from modules.pipeline import pipeline
+  File "/home/dmitry/airflow/modules/pipeline.py", line 7, in <module>
+    from sklearn.compose import ColumnTransformer, make_column_selector
+ModuleNotFoundError: No module named 'sklearn'
+[2023-06-22T20:39:52.496+0300] {processor.py:838} WARNING - No viable dags retrieved from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T20:39:52.507+0300] {processor.py:179} INFO - Processing /home/dmitry/airflow/dags/hw_dag.py took 0.205 seconds
+[2023-06-22T20:40:25.035+0300] {processor.py:157} INFO - Started process (PID=6331) to work on /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T20:40:25.036+0300] {processor.py:826} INFO - Processing file /home/dmitry/airflow/dags/hw_dag.py for tasks to queue
+[2023-06-22T20:40:25.037+0300] {logging_mixin.py:149} INFO - [2023-06-22T20:40:25.036+0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T20:40:25.218+0300] {logging_mixin.py:149} INFO - [2023-06-22T20:40:25.216+0300] {dagbag.py:350} ERROR - Failed to import: /home/dmitry/airflow/dags/hw_dag.py
+Traceback (most recent call last):
+  File "/home/dmitry/Рабочий стол/.venv_airflow/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/dmitry/airflow/dags/hw_dag.py", line 14, in <module>
+    from modules.pipeline import pipeline
+  File "/home/dmitry/airflow/modules/pipeline.py", line 7, in <module>
+    from sklearn.compose import ColumnTransformer, make_column_selector
+ModuleNotFoundError: No module named 'sklearn'
+[2023-06-22T20:40:25.218+0300] {processor.py:838} WARNING - No viable dags retrieved from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T20:40:25.228+0300] {processor.py:179} INFO - Processing /home/dmitry/airflow/dags/hw_dag.py took 0.197 seconds
+[2023-06-22T20:41:01.756+0300] {processor.py:157} INFO - Started process (PID=6535) to work on /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T20:41:01.757+0300] {processor.py:826} INFO - Processing file /home/dmitry/airflow/dags/hw_dag.py for tasks to queue
+[2023-06-22T20:41:01.758+0300] {logging_mixin.py:149} INFO - [2023-06-22T20:41:01.757+0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T20:41:01.970+0300] {logging_mixin.py:149} INFO - [2023-06-22T20:41:01.969+0300] {dagbag.py:350} ERROR - Failed to import: /home/dmitry/airflow/dags/hw_dag.py
+Traceback (most recent call last):
+  File "/home/dmitry/Рабочий стол/.venv_airflow/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/dmitry/airflow/dags/hw_dag.py", line 14, in <module>
+    from modules.pipeline import pipeline
+  File "/home/dmitry/airflow/modules/pipeline.py", line 7, in <module>
+    from sklearn.compose import ColumnTransformer, make_column_selector
+ModuleNotFoundError: No module named 'sklearn'
+[2023-06-22T20:41:01.970+0300] {processor.py:838} WARNING - No viable dags retrieved from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T20:41:01.981+0300] {processor.py:179} INFO - Processing /home/dmitry/airflow/dags/hw_dag.py took 0.226 seconds
+[2023-06-22T20:41:38.171+0300] {processor.py:157} INFO - Started process (PID=6641) to work on /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T20:41:38.172+0300] {processor.py:826} INFO - Processing file /home/dmitry/airflow/dags/hw_dag.py for tasks to queue
+[2023-06-22T20:41:38.173+0300] {logging_mixin.py:149} INFO - [2023-06-22T20:41:38.172+0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T20:41:38.382+0300] {logging_mixin.py:149} INFO - [2023-06-22T20:41:38.381+0300] {dagbag.py:350} ERROR - Failed to import: /home/dmitry/airflow/dags/hw_dag.py
+Traceback (most recent call last):
+  File "/home/dmitry/Рабочий стол/.venv_airflow/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/dmitry/airflow/dags/hw_dag.py", line 14, in <module>
+    from modules.pipeline import pipeline
+  File "/home/dmitry/airflow/modules/pipeline.py", line 7, in <module>
+    from sklearn.compose import ColumnTransformer, make_column_selector
+ModuleNotFoundError: No module named 'sklearn'
+[2023-06-22T20:41:38.383+0300] {processor.py:838} WARNING - No viable dags retrieved from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T20:41:38.393+0300] {processor.py:179} INFO - Processing /home/dmitry/airflow/dags/hw_dag.py took 0.226 seconds
+[2023-06-22T20:42:09.519+0300] {processor.py:157} INFO - Started process (PID=6709) to work on /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T20:42:09.520+0300] {processor.py:826} INFO - Processing file /home/dmitry/airflow/dags/hw_dag.py for tasks to queue
+[2023-06-22T20:42:09.521+0300] {logging_mixin.py:149} INFO - [2023-06-22T20:42:09.520+0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T20:42:09.733+0300] {logging_mixin.py:149} INFO - [2023-06-22T20:42:09.732+0300] {dagbag.py:350} ERROR - Failed to import: /home/dmitry/airflow/dags/hw_dag.py
+Traceback (most recent call last):
+  File "/home/dmitry/Рабочий стол/.venv_airflow/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/dmitry/airflow/dags/hw_dag.py", line 14, in <module>
+    from modules.pipeline import pipeline
+  File "/home/dmitry/airflow/modules/pipeline.py", line 7, in <module>
+    from sklearn.compose import ColumnTransformer, make_column_selector
+ModuleNotFoundError: No module named 'sklearn'
+[2023-06-22T20:42:09.734+0300] {processor.py:838} WARNING - No viable dags retrieved from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T20:42:09.747+0300] {processor.py:179} INFO - Processing /home/dmitry/airflow/dags/hw_dag.py took 0.232 seconds
+[2023-06-22T20:42:40.631+0300] {processor.py:157} INFO - Started process (PID=6876) to work on /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T20:42:40.632+0300] {processor.py:826} INFO - Processing file /home/dmitry/airflow/dags/hw_dag.py for tasks to queue
+[2023-06-22T20:42:40.633+0300] {logging_mixin.py:149} INFO - [2023-06-22T20:42:40.633+0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T20:42:40.835+0300] {logging_mixin.py:149} INFO - [2023-06-22T20:42:40.834+0300] {dagbag.py:350} ERROR - Failed to import: /home/dmitry/airflow/dags/hw_dag.py
+Traceback (most recent call last):
+  File "/home/dmitry/Рабочий стол/.venv_airflow/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/dmitry/airflow/dags/hw_dag.py", line 14, in <module>
+    from modules.pipeline import pipeline
+  File "/home/dmitry/airflow/modules/pipeline.py", line 7, in <module>
+    from sklearn.compose import ColumnTransformer, make_column_selector
+ModuleNotFoundError: No module named 'sklearn'
+[2023-06-22T20:42:40.836+0300] {processor.py:838} WARNING - No viable dags retrieved from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T20:42:40.846+0300] {processor.py:179} INFO - Processing /home/dmitry/airflow/dags/hw_dag.py took 0.219 seconds
+[2023-06-22T20:43:12.827+0300] {processor.py:157} INFO - Started process (PID=6936) to work on /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T20:43:12.828+0300] {processor.py:826} INFO - Processing file /home/dmitry/airflow/dags/hw_dag.py for tasks to queue
+[2023-06-22T20:43:12.829+0300] {logging_mixin.py:149} INFO - [2023-06-22T20:43:12.828+0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T20:43:13.010+0300] {logging_mixin.py:149} INFO - [2023-06-22T20:43:13.008+0300] {dagbag.py:350} ERROR - Failed to import: /home/dmitry/airflow/dags/hw_dag.py
+Traceback (most recent call last):
+  File "/home/dmitry/Рабочий стол/.venv_airflow/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/dmitry/airflow/dags/hw_dag.py", line 14, in <module>
+    from modules.pipeline import pipeline
+  File "/home/dmitry/airflow/modules/pipeline.py", line 7, in <module>
+    from sklearn.compose import ColumnTransformer, make_column_selector
+ModuleNotFoundError: No module named 'sklearn'
+[2023-06-22T20:43:13.010+0300] {processor.py:838} WARNING - No viable dags retrieved from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T20:43:13.020+0300] {processor.py:179} INFO - Processing /home/dmitry/airflow/dags/hw_dag.py took 0.196 seconds
+[2023-06-22T20:43:44.903+0300] {processor.py:157} INFO - Started process (PID=7019) to work on /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T20:43:44.904+0300] {processor.py:826} INFO - Processing file /home/dmitry/airflow/dags/hw_dag.py for tasks to queue
+[2023-06-22T20:43:44.904+0300] {logging_mixin.py:149} INFO - [2023-06-22T20:43:44.904+0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T20:43:45.091+0300] {logging_mixin.py:149} INFO - [2023-06-22T20:43:45.090+0300] {dagbag.py:350} ERROR - Failed to import: /home/dmitry/airflow/dags/hw_dag.py
+Traceback (most recent call last):
+  File "/home/dmitry/Рабочий стол/.venv_airflow/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/dmitry/airflow/dags/hw_dag.py", line 14, in <module>
+    from modules.pipeline import pipeline
+  File "/home/dmitry/airflow/modules/pipeline.py", line 7, in <module>
+    from sklearn.compose import ColumnTransformer, make_column_selector
+ModuleNotFoundError: No module named 'sklearn'
+[2023-06-22T20:43:45.092+0300] {processor.py:838} WARNING - No viable dags retrieved from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T20:43:45.103+0300] {processor.py:179} INFO - Processing /home/dmitry/airflow/dags/hw_dag.py took 0.201 seconds
+[2023-06-22T20:44:17.544+0300] {processor.py:157} INFO - Started process (PID=7127) to work on /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T20:44:17.545+0300] {processor.py:826} INFO - Processing file /home/dmitry/airflow/dags/hw_dag.py for tasks to queue
+[2023-06-22T20:44:17.546+0300] {logging_mixin.py:149} INFO - [2023-06-22T20:44:17.546+0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T20:44:17.750+0300] {logging_mixin.py:149} INFO - [2023-06-22T20:44:17.749+0300] {dagbag.py:350} ERROR - Failed to import: /home/dmitry/airflow/dags/hw_dag.py
+Traceback (most recent call last):
+  File "/home/dmitry/Рабочий стол/.venv_airflow/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/dmitry/airflow/dags/hw_dag.py", line 14, in <module>
+    from modules.pipeline import pipeline
+  File "/home/dmitry/airflow_hw/modules/pipeline.py", line 7, in <module>
+    from sklearn.compose import ColumnTransformer, make_column_selector
+ModuleNotFoundError: No module named 'sklearn'
+[2023-06-22T20:44:17.750+0300] {processor.py:838} WARNING - No viable dags retrieved from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T20:44:17.764+0300] {processor.py:179} INFO - Processing /home/dmitry/airflow/dags/hw_dag.py took 0.223 seconds
+[2023-06-22T20:44:34.205+0300] {processor.py:157} INFO - Started process (PID=7164) to work on /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T20:44:34.206+0300] {processor.py:826} INFO - Processing file /home/dmitry/airflow/dags/hw_dag.py for tasks to queue
+[2023-06-22T20:44:34.206+0300] {logging_mixin.py:149} INFO - [2023-06-22T20:44:34.206+0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T20:44:34.382+0300] {logging_mixin.py:149} INFO - [2023-06-22T20:44:34.381+0300] {dagbag.py:350} ERROR - Failed to import: /home/dmitry/airflow/dags/hw_dag.py
+Traceback (most recent call last):
+  File "/home/dmitry/Рабочий стол/.venv_airflow/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/dmitry/airflow/dags/hw_dag.py", line 14, in <module>
+    from modules.pipeline import pipeline
+  File "/home/dmitry/airflow/modules/pipeline.py", line 7, in <module>
+    from sklearn.compose import ColumnTransformer, make_column_selector
+ModuleNotFoundError: No module named 'sklearn'
+[2023-06-22T20:44:34.382+0300] {processor.py:838} WARNING - No viable dags retrieved from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T20:44:34.392+0300] {processor.py:179} INFO - Processing /home/dmitry/airflow/dags/hw_dag.py took 0.189 seconds
+[2023-06-22T20:45:08.451+0300] {processor.py:157} INFO - Started process (PID=7290) to work on /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T20:45:08.452+0300] {processor.py:826} INFO - Processing file /home/dmitry/airflow/dags/hw_dag.py for tasks to queue
+[2023-06-22T20:45:08.452+0300] {logging_mixin.py:149} INFO - [2023-06-22T20:45:08.452+0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T20:45:08.633+0300] {logging_mixin.py:149} INFO - [2023-06-22T20:45:08.631+0300] {dagbag.py:350} ERROR - Failed to import: /home/dmitry/airflow/dags/hw_dag.py
+Traceback (most recent call last):
+  File "/home/dmitry/Рабочий стол/.venv_airflow/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/dmitry/airflow/dags/hw_dag.py", line 14, in <module>
+    from modules.pipeline import pipeline
+  File "/home/dmitry/airflow/modules/pipeline.py", line 7, in <module>
+    from sklearn.compose import ColumnTransformer, make_column_selector
+ModuleNotFoundError: No module named 'sklearn'
+[2023-06-22T20:45:08.633+0300] {processor.py:838} WARNING - No viable dags retrieved from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T20:45:08.643+0300] {processor.py:179} INFO - Processing /home/dmitry/airflow/dags/hw_dag.py took 0.193 seconds
+[2023-06-22T20:45:43.796+0300] {processor.py:157} INFO - Started process (PID=7364) to work on /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T20:45:43.797+0300] {processor.py:826} INFO - Processing file /home/dmitry/airflow/dags/hw_dag.py for tasks to queue
+[2023-06-22T20:45:43.797+0300] {logging_mixin.py:149} INFO - [2023-06-22T20:45:43.797+0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T20:45:43.980+0300] {logging_mixin.py:149} INFO - [2023-06-22T20:45:43.979+0300] {dagbag.py:350} ERROR - Failed to import: /home/dmitry/airflow/dags/hw_dag.py
+Traceback (most recent call last):
+  File "/home/dmitry/Рабочий стол/.venv_airflow/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/dmitry/airflow/dags/hw_dag.py", line 14, in <module>
+    from modules.pipeline import pipeline
+  File "/home/dmitry/airflow/modules/pipeline.py", line 7, in <module>
+    from sklearn.compose import ColumnTransformer, make_column_selector
+ModuleNotFoundError: No module named 'sklearn'
+[2023-06-22T20:45:43.980+0300] {processor.py:838} WARNING - No viable dags retrieved from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T20:45:43.991+0300] {processor.py:179} INFO - Processing /home/dmitry/airflow/dags/hw_dag.py took 0.197 seconds
+[2023-06-22T20:46:14.796+0300] {processor.py:157} INFO - Started process (PID=7460) to work on /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T20:46:14.797+0300] {processor.py:826} INFO - Processing file /home/dmitry/airflow/dags/hw_dag.py for tasks to queue
+[2023-06-22T20:46:14.798+0300] {logging_mixin.py:149} INFO - [2023-06-22T20:46:14.798+0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T20:46:14.982+0300] {logging_mixin.py:149} INFO - [2023-06-22T20:46:14.981+0300] {dagbag.py:350} ERROR - Failed to import: /home/dmitry/airflow/dags/hw_dag.py
+Traceback (most recent call last):
+  File "/home/dmitry/Рабочий стол/.venv_airflow/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/dmitry/airflow/dags/hw_dag.py", line 14, in <module>
+    from modules.pipeline import pipeline
+  File "/home/dmitry/airflow/modules/pipeline.py", line 7, in <module>
+    from sklearn.compose import ColumnTransformer, make_column_selector
+ModuleNotFoundError: No module named 'sklearn'
+[2023-06-22T20:46:14.982+0300] {processor.py:838} WARNING - No viable dags retrieved from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T20:46:14.992+0300] {processor.py:179} INFO - Processing /home/dmitry/airflow/dags/hw_dag.py took 0.200 seconds
+[2023-06-22T20:46:48.147+0300] {processor.py:157} INFO - Started process (PID=7569) to work on /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T20:46:48.148+0300] {processor.py:826} INFO - Processing file /home/dmitry/airflow/dags/hw_dag.py for tasks to queue
+[2023-06-22T20:46:48.149+0300] {logging_mixin.py:149} INFO - [2023-06-22T20:46:48.149+0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T20:46:48.339+0300] {logging_mixin.py:149} INFO - [2023-06-22T20:46:48.337+0300] {dagbag.py:350} ERROR - Failed to import: /home/dmitry/airflow/dags/hw_dag.py
+Traceback (most recent call last):
+  File "/home/dmitry/Рабочий стол/.venv_airflow/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/dmitry/airflow/dags/hw_dag.py", line 14, in <module>
+    from modules.pipeline import pipeline
+  File "/home/dmitry/airflow/modules/pipeline.py", line 7, in <module>
+    from sklearn.compose import ColumnTransformer, make_column_selector
+ModuleNotFoundError: No module named 'sklearn'
+[2023-06-22T20:46:48.339+0300] {processor.py:838} WARNING - No viable dags retrieved from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T20:46:48.349+0300] {processor.py:179} INFO - Processing /home/dmitry/airflow/dags/hw_dag.py took 0.205 seconds
+[2023-06-22T20:47:19.192+0300] {processor.py:157} INFO - Started process (PID=7638) to work on /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T20:47:19.193+0300] {processor.py:826} INFO - Processing file /home/dmitry/airflow/dags/hw_dag.py for tasks to queue
+[2023-06-22T20:47:19.194+0300] {logging_mixin.py:149} INFO - [2023-06-22T20:47:19.193+0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T20:47:19.381+0300] {logging_mixin.py:149} INFO - [2023-06-22T20:47:19.380+0300] {dagbag.py:350} ERROR - Failed to import: /home/dmitry/airflow/dags/hw_dag.py
+Traceback (most recent call last):
+  File "/home/dmitry/Рабочий стол/.venv_airflow/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/dmitry/airflow/dags/hw_dag.py", line 14, in <module>
+    from modules.pipeline import pipeline
+  File "/home/dmitry/airflow/modules/pipeline.py", line 7, in <module>
+    from sklearn.compose import ColumnTransformer, make_column_selector
+ModuleNotFoundError: No module named 'sklearn'
+[2023-06-22T20:47:19.381+0300] {processor.py:838} WARNING - No viable dags retrieved from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T20:47:19.392+0300] {processor.py:179} INFO - Processing /home/dmitry/airflow/dags/hw_dag.py took 0.203 seconds
+[2023-06-22T20:47:51.279+0300] {processor.py:157} INFO - Started process (PID=7735) to work on /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T20:47:51.280+0300] {processor.py:826} INFO - Processing file /home/dmitry/airflow/dags/hw_dag.py for tasks to queue
+[2023-06-22T20:47:51.280+0300] {logging_mixin.py:149} INFO - [2023-06-22T20:47:51.280+0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T20:47:51.452+0300] {logging_mixin.py:149} INFO - [2023-06-22T20:47:51.451+0300] {dagbag.py:350} ERROR - Failed to import: /home/dmitry/airflow/dags/hw_dag.py
+Traceback (most recent call last):
+  File "/home/dmitry/Рабочий стол/.venv_airflow/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/dmitry/airflow/dags/hw_dag.py", line 14, in <module>
+    from modules.pipeline import pipeline
+  File "/home/dmitry/airflow/modules/pipeline.py", line 7, in <module>
+    from sklearn.compose import ColumnTransformer, make_column_selector
+ModuleNotFoundError: No module named 'sklearn'
+[2023-06-22T20:47:51.452+0300] {processor.py:838} WARNING - No viable dags retrieved from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T20:47:51.462+0300] {processor.py:179} INFO - Processing /home/dmitry/airflow/dags/hw_dag.py took 0.185 seconds
+[2023-06-22T20:48:25.258+0300] {processor.py:157} INFO - Started process (PID=7920) to work on /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T20:48:25.259+0300] {processor.py:826} INFO - Processing file /home/dmitry/airflow/dags/hw_dag.py for tasks to queue
+[2023-06-22T20:48:25.260+0300] {logging_mixin.py:149} INFO - [2023-06-22T20:48:25.260+0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T20:48:25.454+0300] {logging_mixin.py:149} INFO - [2023-06-22T20:48:25.452+0300] {dagbag.py:350} ERROR - Failed to import: /home/dmitry/airflow/dags/hw_dag.py
+Traceback (most recent call last):
+  File "/home/dmitry/Рабочий стол/.venv_airflow/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/dmitry/airflow/dags/hw_dag.py", line 14, in <module>
+    from modules.pipeline import pipeline
+  File "/home/dmitry/airflow/modules/pipeline.py", line 7, in <module>
+    from sklearn.compose import ColumnTransformer, make_column_selector
+ModuleNotFoundError: No module named 'sklearn'
+[2023-06-22T20:48:25.454+0300] {processor.py:838} WARNING - No viable dags retrieved from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T20:48:25.465+0300] {processor.py:179} INFO - Processing /home/dmitry/airflow/dags/hw_dag.py took 0.210 seconds
+[2023-06-22T20:48:57.351+0300] {processor.py:157} INFO - Started process (PID=8088) to work on /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T20:48:57.352+0300] {processor.py:826} INFO - Processing file /home/dmitry/airflow/dags/hw_dag.py for tasks to queue
+[2023-06-22T20:48:57.352+0300] {logging_mixin.py:149} INFO - [2023-06-22T20:48:57.352+0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T20:48:57.531+0300] {logging_mixin.py:149} INFO - [2023-06-22T20:48:57.530+0300] {dagbag.py:350} ERROR - Failed to import: /home/dmitry/airflow/dags/hw_dag.py
+Traceback (most recent call last):
+  File "/home/dmitry/Рабочий стол/.venv_airflow/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/dmitry/airflow/dags/hw_dag.py", line 14, in <module>
+    from modules.pipeline import pipeline
+  File "/home/dmitry/airflow/modules/pipeline.py", line 7, in <module>
+    from sklearn.compose import ColumnTransformer, make_column_selector
+ModuleNotFoundError: No module named 'sklearn'
+[2023-06-22T20:48:57.531+0300] {processor.py:838} WARNING - No viable dags retrieved from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T20:48:57.541+0300] {processor.py:179} INFO - Processing /home/dmitry/airflow/dags/hw_dag.py took 0.192 seconds
+[2023-06-22T20:49:28.661+0300] {processor.py:157} INFO - Started process (PID=8239) to work on /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T20:49:28.662+0300] {processor.py:826} INFO - Processing file /home/dmitry/airflow/dags/hw_dag.py for tasks to queue
+[2023-06-22T20:49:28.663+0300] {logging_mixin.py:149} INFO - [2023-06-22T20:49:28.663+0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T20:49:28.856+0300] {logging_mixin.py:149} INFO - [2023-06-22T20:49:28.855+0300] {dagbag.py:350} ERROR - Failed to import: /home/dmitry/airflow/dags/hw_dag.py
+Traceback (most recent call last):
+  File "/home/dmitry/Рабочий стол/.venv_airflow/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/dmitry/airflow/dags/hw_dag.py", line 14, in <module>
+    from modules.pipeline import pipeline
+  File "/home/dmitry/airflow/modules/pipeline.py", line 7, in <module>
+    from sklearn.compose import ColumnTransformer, make_column_selector
+ModuleNotFoundError: No module named 'sklearn'
+[2023-06-22T20:49:28.857+0300] {processor.py:838} WARNING - No viable dags retrieved from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T20:49:28.867+0300] {processor.py:179} INFO - Processing /home/dmitry/airflow/dags/hw_dag.py took 0.209 seconds
+[2023-06-22T20:50:00.704+0300] {processor.py:157} INFO - Started process (PID=8348) to work on /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T20:50:00.706+0300] {processor.py:826} INFO - Processing file /home/dmitry/airflow/dags/hw_dag.py for tasks to queue
+[2023-06-22T20:50:00.706+0300] {logging_mixin.py:149} INFO - [2023-06-22T20:50:00.706+0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T20:50:00.901+0300] {logging_mixin.py:149} INFO - [2023-06-22T20:50:00.899+0300] {dagbag.py:350} ERROR - Failed to import: /home/dmitry/airflow/dags/hw_dag.py
+Traceback (most recent call last):
+  File "/home/dmitry/Рабочий стол/.venv_airflow/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/dmitry/airflow/dags/hw_dag.py", line 14, in <module>
+    from modules.pipeline import pipeline
+  File "/home/dmitry/airflow/modules/pipeline.py", line 7, in <module>
+    from sklearn.compose import ColumnTransformer, make_column_selector
+ModuleNotFoundError: No module named 'sklearn'
+[2023-06-22T20:50:00.901+0300] {processor.py:838} WARNING - No viable dags retrieved from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T20:50:00.911+0300] {processor.py:179} INFO - Processing /home/dmitry/airflow/dags/hw_dag.py took 0.211 seconds
+[2023-06-22T20:50:31.584+0300] {processor.py:157} INFO - Started process (PID=8438) to work on /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T20:50:31.585+0300] {processor.py:826} INFO - Processing file /home/dmitry/airflow/dags/hw_dag.py for tasks to queue
+[2023-06-22T20:50:31.586+0300] {logging_mixin.py:149} INFO - [2023-06-22T20:50:31.585+0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T20:50:31.780+0300] {logging_mixin.py:149} INFO - [2023-06-22T20:50:31.779+0300] {dagbag.py:350} ERROR - Failed to import: /home/dmitry/airflow/dags/hw_dag.py
+Traceback (most recent call last):
+  File "/home/dmitry/Рабочий стол/.venv_airflow/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/dmitry/airflow/dags/hw_dag.py", line 14, in <module>
+    from modules.pipeline import pipeline
+  File "/home/dmitry/airflow/modules/pipeline.py", line 7, in <module>
+    from sklearn.compose import ColumnTransformer, make_column_selector
+ModuleNotFoundError: No module named 'sklearn'
+[2023-06-22T20:50:31.781+0300] {processor.py:838} WARNING - No viable dags retrieved from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T20:50:31.791+0300] {processor.py:179} INFO - Processing /home/dmitry/airflow/dags/hw_dag.py took 0.210 seconds
+[2023-06-22T20:51:07.712+0300] {processor.py:157} INFO - Started process (PID=8575) to work on /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T20:51:07.714+0300] {processor.py:826} INFO - Processing file /home/dmitry/airflow/dags/hw_dag.py for tasks to queue
+[2023-06-22T20:51:07.714+0300] {logging_mixin.py:149} INFO - [2023-06-22T20:51:07.714+0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T20:51:07.905+0300] {logging_mixin.py:149} INFO - [2023-06-22T20:51:07.904+0300] {dagbag.py:350} ERROR - Failed to import: /home/dmitry/airflow/dags/hw_dag.py
+Traceback (most recent call last):
+  File "/home/dmitry/Рабочий стол/.venv_airflow/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/dmitry/airflow/dags/hw_dag.py", line 14, in <module>
+    from modules.pipeline import pipeline
+  File "/home/dmitry/airflow/modules/pipeline.py", line 7, in <module>
+    from sklearn.compose import ColumnTransformer, make_column_selector
+ModuleNotFoundError: No module named 'sklearn'
+[2023-06-22T20:51:07.905+0300] {processor.py:838} WARNING - No viable dags retrieved from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T20:51:07.915+0300] {processor.py:179} INFO - Processing /home/dmitry/airflow/dags/hw_dag.py took 0.207 seconds
+[2023-06-22T20:51:42.276+0300] {processor.py:157} INFO - Started process (PID=9104) to work on /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T20:51:42.277+0300] {processor.py:826} INFO - Processing file /home/dmitry/airflow/dags/hw_dag.py for tasks to queue
+[2023-06-22T20:51:42.277+0300] {logging_mixin.py:149} INFO - [2023-06-22T20:51:42.277+0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T20:51:42.483+0300] {logging_mixin.py:149} INFO - [2023-06-22T20:51:42.482+0300] {dagbag.py:350} ERROR - Failed to import: /home/dmitry/airflow/dags/hw_dag.py
+Traceback (most recent call last):
+  File "/home/dmitry/Рабочий стол/.venv_airflow/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/dmitry/airflow/dags/hw_dag.py", line 14, in <module>
+    from modules.pipeline import pipeline
+  File "/home/dmitry/airflow/modules/pipeline.py", line 7, in <module>
+    from sklearn.compose import ColumnTransformer, make_column_selector
+ModuleNotFoundError: No module named 'sklearn'
+[2023-06-22T20:51:42.483+0300] {processor.py:838} WARNING - No viable dags retrieved from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T20:51:42.494+0300] {processor.py:179} INFO - Processing /home/dmitry/airflow/dags/hw_dag.py took 0.222 seconds
+[2023-06-22T20:52:13.783+0300] {processor.py:157} INFO - Started process (PID=9406) to work on /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T20:52:13.784+0300] {processor.py:826} INFO - Processing file /home/dmitry/airflow/dags/hw_dag.py for tasks to queue
+[2023-06-22T20:52:13.785+0300] {logging_mixin.py:149} INFO - [2023-06-22T20:52:13.785+0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T20:52:13.977+0300] {logging_mixin.py:149} INFO - [2023-06-22T20:52:13.975+0300] {dagbag.py:350} ERROR - Failed to import: /home/dmitry/airflow/dags/hw_dag.py
+Traceback (most recent call last):
+  File "/home/dmitry/Рабочий стол/.venv_airflow/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/dmitry/airflow/dags/hw_dag.py", line 14, in <module>
+    from modules.pipeline import pipeline
+  File "/home/dmitry/airflow/modules/pipeline.py", line 7, in <module>
+    from sklearn.compose import ColumnTransformer, make_column_selector
+ModuleNotFoundError: No module named 'sklearn'
+[2023-06-22T20:52:13.977+0300] {processor.py:838} WARNING - No viable dags retrieved from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T20:52:13.987+0300] {processor.py:179} INFO - Processing /home/dmitry/airflow/dags/hw_dag.py took 0.207 seconds
+[2023-06-22T20:52:45.240+0300] {processor.py:157} INFO - Started process (PID=9529) to work on /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T20:52:45.241+0300] {processor.py:826} INFO - Processing file /home/dmitry/airflow/dags/hw_dag.py for tasks to queue
+[2023-06-22T20:52:45.242+0300] {logging_mixin.py:149} INFO - [2023-06-22T20:52:45.241+0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T20:52:45.432+0300] {logging_mixin.py:149} INFO - [2023-06-22T20:52:45.430+0300] {dagbag.py:350} ERROR - Failed to import: /home/dmitry/airflow/dags/hw_dag.py
+Traceback (most recent call last):
+  File "/home/dmitry/Рабочий стол/.venv_airflow/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/dmitry/airflow/dags/hw_dag.py", line 14, in <module>
+    from modules.pipeline import pipeline
+  File "/home/dmitry/airflow/modules/pipeline.py", line 7, in <module>
+    from sklearn.compose import ColumnTransformer, make_column_selector
+ModuleNotFoundError: No module named 'sklearn'
+[2023-06-22T20:52:45.432+0300] {processor.py:838} WARNING - No viable dags retrieved from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T20:52:45.443+0300] {processor.py:179} INFO - Processing /home/dmitry/airflow/dags/hw_dag.py took 0.206 seconds
+[2023-06-22T20:53:20.429+0300] {processor.py:157} INFO - Started process (PID=9607) to work on /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T20:53:20.431+0300] {processor.py:826} INFO - Processing file /home/dmitry/airflow/dags/hw_dag.py for tasks to queue
+[2023-06-22T20:53:20.432+0300] {logging_mixin.py:149} INFO - [2023-06-22T20:53:20.431+0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T20:53:20.610+0300] {logging_mixin.py:149} INFO - [2023-06-22T20:53:20.608+0300] {dagbag.py:350} ERROR - Failed to import: /home/dmitry/airflow/dags/hw_dag.py
+Traceback (most recent call last):
+  File "/home/dmitry/Рабочий стол/.venv_airflow/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/dmitry/airflow/dags/hw_dag.py", line 14, in <module>
+    from modules.pipeline import pipeline
+  File "/home/dmitry/airflow/modules/pipeline.py", line 7, in <module>
+    from sklearn.compose import ColumnTransformer, make_column_selector
+ModuleNotFoundError: No module named 'sklearn'
+[2023-06-22T20:53:20.610+0300] {processor.py:838} WARNING - No viable dags retrieved from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T20:53:20.620+0300] {processor.py:179} INFO - Processing /home/dmitry/airflow/dags/hw_dag.py took 0.194 seconds
+[2023-06-22T20:53:52.890+0300] {processor.py:157} INFO - Started process (PID=9681) to work on /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T20:53:52.891+0300] {processor.py:826} INFO - Processing file /home/dmitry/airflow/dags/hw_dag.py for tasks to queue
+[2023-06-22T20:53:52.892+0300] {logging_mixin.py:149} INFO - [2023-06-22T20:53:52.891+0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T20:53:53.082+0300] {logging_mixin.py:149} INFO - [2023-06-22T20:53:53.081+0300] {dagbag.py:350} ERROR - Failed to import: /home/dmitry/airflow/dags/hw_dag.py
+Traceback (most recent call last):
+  File "/home/dmitry/Рабочий стол/.venv_airflow/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/dmitry/airflow/dags/hw_dag.py", line 14, in <module>
+    from modules.pipeline import pipeline
+  File "/home/dmitry/airflow/modules/pipeline.py", line 7, in <module>
+    from sklearn.compose import ColumnTransformer, make_column_selector
+ModuleNotFoundError: No module named 'sklearn'
+[2023-06-22T20:53:53.082+0300] {processor.py:838} WARNING - No viable dags retrieved from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T20:53:53.094+0300] {processor.py:179} INFO - Processing /home/dmitry/airflow/dags/hw_dag.py took 0.207 seconds
+[2023-06-22T20:54:24.952+0300] {processor.py:157} INFO - Started process (PID=9872) to work on /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T20:54:24.953+0300] {processor.py:826} INFO - Processing file /home/dmitry/airflow/dags/hw_dag.py for tasks to queue
+[2023-06-22T20:54:24.953+0300] {logging_mixin.py:149} INFO - [2023-06-22T20:54:24.953+0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T20:54:25.142+0300] {logging_mixin.py:149} INFO - [2023-06-22T20:54:25.141+0300] {dagbag.py:350} ERROR - Failed to import: /home/dmitry/airflow/dags/hw_dag.py
+Traceback (most recent call last):
+  File "/home/dmitry/Рабочий стол/.venv_airflow/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/dmitry/airflow/dags/hw_dag.py", line 14, in <module>
+    from modules.pipeline import pipeline
+  File "/home/dmitry/airflow/modules/pipeline.py", line 7, in <module>
+    from sklearn.compose import ColumnTransformer, make_column_selector
+ModuleNotFoundError: No module named 'sklearn'
+[2023-06-22T20:54:25.142+0300] {processor.py:838} WARNING - No viable dags retrieved from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T20:54:25.154+0300] {processor.py:179} INFO - Processing /home/dmitry/airflow/dags/hw_dag.py took 0.204 seconds
+[2023-06-22T20:54:59.987+0300] {processor.py:157} INFO - Started process (PID=10026) to work on /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T20:54:59.988+0300] {processor.py:826} INFO - Processing file /home/dmitry/airflow/dags/hw_dag.py for tasks to queue
+[2023-06-22T20:54:59.989+0300] {logging_mixin.py:149} INFO - [2023-06-22T20:54:59.989+0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T20:55:00.179+0300] {logging_mixin.py:149} INFO - [2023-06-22T20:55:00.178+0300] {dagbag.py:350} ERROR - Failed to import: /home/dmitry/airflow/dags/hw_dag.py
+Traceback (most recent call last):
+  File "/home/dmitry/Рабочий стол/.venv_airflow/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/dmitry/airflow/dags/hw_dag.py", line 14, in <module>
+    from modules.pipeline import pipeline
+  File "/home/dmitry/airflow/modules/pipeline.py", line 7, in <module>
+    from sklearn.compose import ColumnTransformer, make_column_selector
+ModuleNotFoundError: No module named 'sklearn'
+[2023-06-22T20:55:00.179+0300] {processor.py:838} WARNING - No viable dags retrieved from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T20:55:00.191+0300] {processor.py:179} INFO - Processing /home/dmitry/airflow/dags/hw_dag.py took 0.207 seconds
+[2023-06-22T20:55:32.443+0300] {processor.py:157} INFO - Started process (PID=10091) to work on /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T20:55:32.444+0300] {processor.py:826} INFO - Processing file /home/dmitry/airflow/dags/hw_dag.py for tasks to queue
+[2023-06-22T20:55:32.444+0300] {logging_mixin.py:149} INFO - [2023-06-22T20:55:32.444+0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T20:55:32.639+0300] {logging_mixin.py:149} INFO - [2023-06-22T20:55:32.638+0300] {dagbag.py:350} ERROR - Failed to import: /home/dmitry/airflow/dags/hw_dag.py
+Traceback (most recent call last):
+  File "/home/dmitry/Рабочий стол/.venv_airflow/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/dmitry/airflow/dags/hw_dag.py", line 14, in <module>
+    from modules.pipeline import pipeline
+  File "/home/dmitry/airflow/modules/pipeline.py", line 7, in <module>
+    from sklearn.compose import ColumnTransformer, make_column_selector
+ModuleNotFoundError: No module named 'sklearn'
+[2023-06-22T20:55:32.639+0300] {processor.py:838} WARNING - No viable dags retrieved from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T20:55:32.651+0300] {processor.py:179} INFO - Processing /home/dmitry/airflow/dags/hw_dag.py took 0.213 seconds
+[2023-06-22T20:56:07.243+0300] {processor.py:157} INFO - Started process (PID=10179) to work on /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T20:56:07.244+0300] {processor.py:826} INFO - Processing file /home/dmitry/airflow/dags/hw_dag.py for tasks to queue
+[2023-06-22T20:56:07.245+0300] {logging_mixin.py:149} INFO - [2023-06-22T20:56:07.245+0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T20:56:07.438+0300] {logging_mixin.py:149} INFO - [2023-06-22T20:56:07.437+0300] {dagbag.py:350} ERROR - Failed to import: /home/dmitry/airflow/dags/hw_dag.py
+Traceback (most recent call last):
+  File "/home/dmitry/Рабочий стол/.venv_airflow/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/dmitry/airflow/dags/hw_dag.py", line 14, in <module>
+    from modules.pipeline import pipeline
+  File "/home/dmitry/airflow/modules/pipeline.py", line 7, in <module>
+    from sklearn.compose import ColumnTransformer, make_column_selector
+ModuleNotFoundError: No module named 'sklearn'
+[2023-06-22T20:56:07.438+0300] {processor.py:838} WARNING - No viable dags retrieved from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T20:56:07.448+0300] {processor.py:179} INFO - Processing /home/dmitry/airflow/dags/hw_dag.py took 0.208 seconds
+[2023-06-22T20:56:38.951+0300] {processor.py:157} INFO - Started process (PID=10284) to work on /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T20:56:38.952+0300] {processor.py:826} INFO - Processing file /home/dmitry/airflow/dags/hw_dag.py for tasks to queue
+[2023-06-22T20:56:38.953+0300] {logging_mixin.py:149} INFO - [2023-06-22T20:56:38.953+0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T20:56:39.144+0300] {logging_mixin.py:149} INFO - [2023-06-22T20:56:39.143+0300] {dagbag.py:350} ERROR - Failed to import: /home/dmitry/airflow/dags/hw_dag.py
+Traceback (most recent call last):
+  File "/home/dmitry/Рабочий стол/.venv_airflow/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/dmitry/airflow/dags/hw_dag.py", line 14, in <module>
+    from modules.pipeline import pipeline
+  File "/home/dmitry/airflow/modules/pipeline.py", line 7, in <module>
+    from sklearn.compose import ColumnTransformer, make_column_selector
+ModuleNotFoundError: No module named 'sklearn'
+[2023-06-22T20:56:39.144+0300] {processor.py:838} WARNING - No viable dags retrieved from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T20:56:39.154+0300] {processor.py:179} INFO - Processing /home/dmitry/airflow/dags/hw_dag.py took 0.207 seconds
+[2023-06-22T20:57:14.480+0300] {processor.py:157} INFO - Started process (PID=10388) to work on /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T20:57:14.481+0300] {processor.py:826} INFO - Processing file /home/dmitry/airflow/dags/hw_dag.py for tasks to queue
+[2023-06-22T20:57:14.482+0300] {logging_mixin.py:149} INFO - [2023-06-22T20:57:14.482+0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T20:57:15.044+0300] {processor.py:836} INFO - DAG(s) dict_keys(['car_price_prediction']) retrieved from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T20:57:15.096+0300] {logging_mixin.py:149} INFO - [2023-06-22T20:57:15.095+0300] {manager.py:504} INFO - Created Permission View: can read on DAG:car_price_prediction
+[2023-06-22T20:57:15.104+0300] {logging_mixin.py:149} INFO - [2023-06-22T20:57:15.103+0300] {manager.py:504} INFO - Created Permission View: can edit on DAG:car_price_prediction
+[2023-06-22T20:57:15.110+0300] {logging_mixin.py:149} INFO - [2023-06-22T20:57:15.109+0300] {manager.py:504} INFO - Created Permission View: can delete on DAG:car_price_prediction
+[2023-06-22T20:57:15.117+0300] {logging_mixin.py:149} INFO - [2023-06-22T20:57:15.117+0300] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-22T20:57:15.122+0300] {logging_mixin.py:149} INFO - [2023-06-22T20:57:15.122+0300] {dag.py:2747} INFO - Creating ORM DAG for car_price_prediction
+[2023-06-22T20:57:15.129+0300] {logging_mixin.py:149} INFO - [2023-06-22T20:57:15.129+0300] {dag.py:3486} INFO - Setting next_dagrun for car_price_prediction to 2022-06-10T15:00:00+00:00, run_after=2022-06-11T15:00:00+00:00
+[2023-06-22T20:57:15.145+0300] {processor.py:179} INFO - Processing /home/dmitry/airflow/dags/hw_dag.py took 0.668 seconds
+[2023-06-22T20:57:49.425+0300] {processor.py:157} INFO - Started process (PID=10482) to work on /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T20:57:49.426+0300] {processor.py:826} INFO - Processing file /home/dmitry/airflow/dags/hw_dag.py for tasks to queue
+[2023-06-22T20:57:49.427+0300] {logging_mixin.py:149} INFO - [2023-06-22T20:57:49.427+0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T20:57:49.971+0300] {processor.py:836} INFO - DAG(s) dict_keys(['car_price_prediction']) retrieved from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T20:57:49.979+0300] {logging_mixin.py:149} INFO - [2023-06-22T20:57:49.978+0300] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-22T20:57:49.991+0300] {logging_mixin.py:149} INFO - [2023-06-22T20:57:49.991+0300] {dag.py:3486} INFO - Setting next_dagrun for car_price_prediction to 2022-06-10T15:00:00+00:00, run_after=2022-06-11T15:00:00+00:00
+[2023-06-22T20:57:50.004+0300] {processor.py:179} INFO - Processing /home/dmitry/airflow/dags/hw_dag.py took 0.581 seconds
+[2023-06-22T21:02:24.032+0300] {processor.py:157} INFO - Started process (PID=11402) to work on /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T21:02:24.033+0300] {processor.py:826} INFO - Processing file /home/dmitry/airflow/dags/hw_dag.py for tasks to queue
+[2023-06-22T21:02:24.034+0300] {logging_mixin.py:149} INFO - [2023-06-22T21:02:24.033+0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T21:02:24.592+0300] {processor.py:836} INFO - DAG(s) dict_keys(['car_price_prediction']) retrieved from /home/dmitry/airflow/dags/hw_dag.py
+[2023-06-22T21:02:24.601+0300] {logging_mixin.py:149} INFO - [2023-06-22T21:02:24.600+0300] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-22T21:02:24.612+0300] {logging_mixin.py:149} INFO - [2023-06-22T21:02:24.611+0300] {dag.py:3486} INFO - Setting next_dagrun for car_price_prediction to 2022-06-18T15:00:00+00:00, run_after=2022-06-19T15:00:00+00:00
+[2023-06-22T21:02:24.624+0300] {processor.py:179} INFO - Processing /home/dmitry/airflow/dags/hw_dag.py took 0.596 seconds
